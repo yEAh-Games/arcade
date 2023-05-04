@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Emulator: DevEnv</title>
+  </head>
+  <body>
+    <h1>TEST</h1>
+    <div id="ruffle-container"></div>
+    <script src="https://cdn.jsdelivr.net/npm/@rufflejs/ruffle@latest/dist/ruffle.js"></script>
+    <script>
+      // load the SWF file using Ruffle
+      const rufflePlayer = document.getElementById('ruffle-container');
+      rufflePlayer.setAttribute('data-url', '../files/game.swf');
+      rufflePlayer.setAttribute('data-autoload', 'on');
+      rufflePlayer.setAttribute('data-controls', 'off');
+    </script>
+  </body>
+</html>
+
+<a href="../files/game.swf">na;;s</a>
