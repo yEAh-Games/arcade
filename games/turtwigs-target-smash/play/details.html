@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Emulator: DevEnv</title>
+  </head>
+  <body>
+    <h1>TEST</h1>
+    <div id="ruffle-container"></div>
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+    <script>
+      // load the SWF file using Ruffle
+      const rufflePlayer = document.getElementById('ruffle-container');
+      rufflePlayer.setAttribute('data-url', '../files/game.swf');
+      rufflePlayer.setAttribute('data-autoload', 'on');
+      rufflePlayer.setAttribute('data-controls', 'off');
+    </script>
+  </body>
+</html>
+
+<h1>BALLS</h1>
+<embed src="../files/game.swf" width="550" height="400"> </embed>
+<a href="../files/game.swf">na;;s</a>
+
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
