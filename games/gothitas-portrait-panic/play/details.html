@@ -4,6 +4,41 @@
 <title>Gothita's Portrait Panic | The yEAh Games Player</title>
 {% include top.html %}
 
+
+
+<div id="overlay">
+  <iframe id="myIframe" allowfullscreen></iframe>
+  <span class="close-btn" onclick="hideOverlay()">&times;</span>
+</div>
+
+
+<script>
+  function showOverlay() {
+    // Show the overlay and set the source of the iframe
+    document.getElementById("overlay").style.display = "flex";
+    document.getElementById("myIframe").src = "/assets/overlays/docs/doc1";
+  }
+
+  function hideOverlay() {
+    // Hide the overlay and reset the source of the iframe
+    document.getElementById("overlay").style.display = "none";
+    document.getElementById("myIframe").src = "";
+  }
+</script>
+
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+<script>
+  window.RufflePlayer.config = {
+     // Start playing the content automatically, without audio if the browser in use does not allow audio to autoplay
+    "autoplay": "on",
+    // Do not show an overlay to unmute the content while it plays; when the content area receives its first interaction, it will unmute
+    "unmuteOverlay": "hidden",
+     // Do not show a splash screen before the content loads; the content area will remain blank until Ruffle fully loads the content
+    "splashScreen": false,
+}
+</script>
+
+
 <main class="page-main">
 
   <div class="uk-grid uk-grid-small" data-uk-grid>
@@ -59,22 +94,6 @@
         </div>
     </div>
     </div>
+  {% include bottom.html %}
 
-
-
-{% include bottom.html %}
-
-
-
-<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-<script>
-  window.RufflePlayer.config = {
-     // Start playing the content automatically, without audio if the browser in use does not allow audio to autoplay
-    "autoplay": "on",
-    // Do not show an overlay to unmute the content while it plays; when the content area receives its first interaction, it will unmute
-    "unmuteOverlay": "hidden",
-     // Do not show a splash screen before the content loads; the content area will remain blank until Ruffle fully loads the content
-    "splashScreen": false,
-}
-</script>
 
