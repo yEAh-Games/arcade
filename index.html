@@ -68,11 +68,56 @@
                             </div>
                         </div>
                     </div>-->
-
+                      
+                      <div class="row">
+                        {% for post in site.posts %}
+                          {% if forloop.index0 % posts_per_row == 0 %}
+                            {% assign row_count = row_count | plus: 1 %}
+                          {% endif %}
+                      
+                          {% if row_count == 2 %}
+                            <div class="post">{{ post.title }}</div>
+                          {% endif %}
+                        {% endfor %}
+                      </div>
+                      
                     <div class="uk-width-1-1">
                         <div class="js-popular">
                             <div class="swiper">
+                            
                                 <div class="swiper-wrapper">
+                                    {% assign posts_per_row = 10 %}
+                                    {% for post in site.posts %}
+                                      {% if forloop.index0 == 0 %}
+                                        {% assign row_count = 1 %}
+                                      {% elsif forloop.index0 % posts_per_row == 0 %}
+                                        {% assign row_count = row_count | plus: 1 %}
+                                      {% endif %}
+                                  
+                                      {% if row_count == 1 %}
+                                      <div class="swiper-slide">
+                                        <div class="game-card">
+                                            <div class="game-card__box">
+                                                <div class="game-card__media"><a href="./games/{{post.id}}/play/details"><img src="./games/{{post.id}}/files/image.png" alt="Featured image: Gothita's Portrait Panic" title="Featured image" /></a></div>
+                                                <div class="game-card__info"><a class="game-card__title" href="./games/{{post.id}}/play/details">{{post.title}}</a>
+                                                    <div class="game-card__genre">{{post.publisher}}</div>
+                                                    <div class="game-card__bottom">
+                                                        <div class="game-card__platform"><a href="/sort/type/flash"><font color="#fff"><font color=" #039487"><i class="fa fa-check-circle" title="Uploaded by yEAh Games staff."></i></font>&#160;&#160;<font color="#FDD023"><i title="Archived Adobe Flash (SWF, FLA) game. Runnable via our emulator, or, if you have Flash installed, natively."class="fa-solid fa-bolt"></i></font></i>&nbsp;&nbsp;<font color="#357EC7 "><i class="fa fa-globe" title="Compatible with all browsers (tested down to IE 7).)"></i></font>&#160;&#160;<i class="fa-solid fa-shield" title="Suitable for all ages."></i></font></a></div>
+                                                        <div class="game-card__users">
+                                                            
+                                                        </div>
+                                                    <div class="game-card__rating-and-price">
+                                                        <div class="game-card__price" style="float:right!important"><a href="./games/gothitas-portrait-panic/play/details"><button  style="width:30px!important;height:35px!important;background-color:#5e9c00" title="Play it now for free!" class="uk-button uk-button-primary uk-width-2-2"><i class="fa-solid fa-circle-play"></i></button></a></div>
+                                                    </div>
+                                                 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                      {% endif %}
+                                    {% endfor %}
+                                    <!--
                                     <div class="swiper-slide">
                                         <div class="game-card">
                                             <div class="game-card__box">
@@ -217,7 +262,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div>-->
                                     </div>
                                 </div>
                                 <div class="swiper-button-prev"></div>
