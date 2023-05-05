@@ -1,25 +1,25 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Full-screen player</title>
-    <style>
-        html, body {
-            padding: 0;
-            margin: 0;
-            height: 100%;
-        }
-        object {
-            display: block;
-            position: absolute;
-            top: 0;
-            left: 0;
-            height: 100%;
-            width: 100%;
-        }
-    </style>
-</head>
-<body>
-    <object type="application/x-shockwave-flash" data="https://player.yeahgames.net/games/zorua-and-zoroarks-puzzle-pack/files/game.swf"></object>
-</body>
-</html>
+<!doctype html>
+<link rel="shortcut icon" href="https://cdn.yeahgames.net/img/branding/logos/default/logo.png" type="image/x-icon">
+<title>Full screen player | YGP</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+</style>
+<div style="position: absolute; top: 2px; right: 2px; z-index: 9999;">
+    <a href="./details.html" style="display: block; width: 32px; height: 32px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24">
+            <path fill="#ffffff" d="M19.78 17.78L12 10l7.78-7.78a1.5 1.5 0 1 0-2.12-2.12L9.88 7.88 2.1.1A1.5 1.5 0 0 0 .69 1.5l7.78 7.78L.69 17.06a1.5 1.5 0 0 0 2.12 2.12l7.78-7.78 7.78 7.78a1.5 1.5 0 0 0 2.12-2.12z"/>
+        </svg>
+    </a>
+</div>
+<object type="application/x-shockwave-flash" data="../files/game.swf" width="100%" height="100%">
+    <param name="movie" value="../files/game.swf" />
+    <param name="quality" value="high" />
+    <param name="bgcolor" value="#000000" />
+    <param name="allowfullscreen" value="true" />
+</object>
+
