@@ -9,5 +9,6 @@ categories:
 tags:
 - pokemon
 date: May 3, 2023
-
+permalink: /games/gothitas-portrait-panic/play/details
+id: gothitas-portrait-panic
 ---
