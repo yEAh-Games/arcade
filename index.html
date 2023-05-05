@@ -98,7 +98,7 @@
                                       <div class="swiper-slide">
                                         <div class="game-card">
                                             <div class="game-card__box">
-                                                <div class="game-card__media"><a href="./games/{{post.id}}/play/details"><img src="./games/{{post.id}}/files/image.png" alt="Featured image: Gothita's Portrait Panic" title="Featured image" /></a></div>
+                                                <div class="game-card__media"><a href="{{post.permalink}}"><img src="{{post.permalink|replace:'play', 'files'|replace: 'details', 'image.png'}}" alt="Featured image: {{post.title}}" title="Featured image" /></a></div>
                                                 <div class="game-card__info"><a class="game-card__title" href="./games/{{post.id}}/play/details">{{post.title}}</a>
                                                     <div class="game-card__genre">{{post.publisher}}</div>
                                                     <div class="game-card__bottom">
