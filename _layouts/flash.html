@@ -43,10 +43,10 @@
               <ul class="game-profile-card__list">
 
                   <li>
-                    {% for item in page.categories %}{% if item == "approved" %}<a href="/sort/type/flash"><font color="#fff"><font color="#039487"><i class="fa fa-check-circle" title="Uploaded and reviewed by yEAh Games staff."></i></font></a>&#160;&#160;{% endif %}{% if item == "as3" %}<font color="#DC3545"><i title="Archived Adobe Flash (SWF, FLA) game, written in ActionScript3. Unlike ActionScript and ActionScript2 games, they often don't work with our in-browser JavaScript emulator (at least, until ActionScript3 gains support). They may work, but if they don't, you can download our desktop FlashEm plug-in from the tools menu in the sidebar." class="fa-solid fa-bolt"></i></font></i>&nbsp;&nbsp;{% endif %}{% if item == "flash" %}<font color="#FDD023"><i title="Archived Adobe Flash (SWF, FLA) games that can be run using a client-side JavaScript emulator." class="fa-solid fa-bolt"></i></font></i>&nbsp;&nbsp;{% endif %}{% if item == "universal" %}<font color="#357EC7 "><i class="fa fa-globe" title="Compatible with all browsers (tested down to IE 7).)"></i></font>&#160;&#160;{% endif %}{% if item == "safe" %}<i class="fa-solid fa-shield" title="Suitable for all ages."></i></font>{% endif %}{% endfor %}</a><br><br>
+                    {% include cats-page.html %}<br><br>
                   </li>
                   {% if page.categories contains "as3" %} <li>
-                   <font title=" nlike ActionScript and ActionScript2 games, these often don't work with our in-browser JavaScript emulator (at least, until ActionScript3 gains support). They may work, but if they don't, you can download our desktop FlashEm plug-in from the tools menu in the sidebar." style="color:#DC3545;font-weight: bold;">ActionScript3</font>
+                   <font title="Unlike ActionScript and ActionScript2 games, these often don't work with our in-browser JavaScript emulator (at least, until ActionScript3 gains support). They may work, but if they don't, you can download our desktop FlashEm plug-in from the tools menu in the sidebar." style="color:#DC3545;font-weight: bold;">ActionScript3</font>
                 </li>{% endif %}
                   <li>
                       <font style="font-weight: bold;">{{page.date}}</font>

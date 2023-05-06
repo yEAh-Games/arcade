@@ -3,8 +3,7 @@ layout: flash
 title: "Gothita's Portrait Panic"
 categories:
  - approved
- - as3
- - universal
+ - as3b
  - safe
 tags:
 - pokemon
