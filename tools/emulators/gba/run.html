@@ -369,6 +369,29 @@
 					accept=".gba"
 					onchange="run(this.files[0]);"
 				/>
+
+				<script>
+					// Run game url
+					window.addEventListener('DOMContentLoaded', () => {
+					  const filePath = 'game.gba';
+					  const xhr = new XMLHttpRequest();
+					  xhr.open('GET', filePath, true);
+					  xhr.responseType = 'blob';
+					  xhr.onload = function() {
+						if (this.status === 200) {
+						  const file = new File([this.response], 'game.gba', {type: 'application/octet-stream'});
+						  const loader = {
+							files: [file],
+						  };
+						  run.call(loader, loader.files[0]);
+						}
+					  };
+					  xhr.send();
+					});
+					</script>
+					
+
+				<!--
 					<script>
 					// Run game url
 					window.addEventListener('DOMContentLoaded', () => {
@@ -384,7 +407,7 @@
 						});
 					});
 				  </script>
-				
+				-->
 				<button onclick="document.getElementById('saveloader').click()">
 					Upload Savegame
 				</button>
