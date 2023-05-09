@@ -2,26 +2,25 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<title>gbajs2</title>
-		<link rel="stylesheet" href="/tools/emulators/gba/resources/main.css" />
-		<script src="/tools/emulators/gba/js/util.js"></script>
-		<script src="/tools/emulators/gba/js/core.js"></script>
-		<script src="/tools/emulators/gba/js/arm.js"></script>
-		<script src="/tools/emulators/gba/js/thumb.js"></script>
-		<script src="/tools/emulators/gba/js/mmu.js"></script>
-		<script src="/tools/emulators/gba/js/io.js"></script>
-		<script src="/tools/emulators/gba/js/audio.js"></script>
-		<script src="/tools/emulators/gba/js/video.js"></script>
-		<script src="/tools/emulators/gba/js/video/proxy.js"></script>
-		<script src="/tools/emulators/gba/js/video/software.js"></script>
-		<script src="/tools/emulators/gba/js/irq.js"></script>
-		<script src="/tools/emulators/gba/js/keypad.js"></script>
-		<script src="/tools/emulators/gba/js/sio.js"></script>
-		<script src="/tools/emulators/gba/js/savedata.js"></script>
-		<script src="/tools/emulators/gba/js/gpio.js"></script>
-		<script src="/tools/emulators/gba/js/gba.js"></script>
-		<script src="/tools/emulators/gba/resources/xhr.js"></script>
-		<script src="/tools/emulators/gba/resources/biosbin.js"></script>
-		<script src="https://player.yeahgames.net/tools/emulators/gba/js/video/worker.js"></script>
+		<link rel="stylesheet" href="resources/main.css" />
+		<script src="js/util.js"></script>
+		<script src="js/core.js"></script>
+		<script src="js/arm.js"></script>
+		<script src="js/thumb.js"></script>
+		<script src="js/mmu.js"></script>
+		<script src="js/io.js"></script>
+		<script src="js/audio.js"></script>
+		<script src="js/video.js"></script>
+		<script src="js/video/proxy.js"></script>
+		<script src="js/video/software.js"></script>
+		<script src="js/irq.js"></script>
+		<script src="js/keypad.js"></script>
+		<script src="js/sio.js"></script>
+		<script src="js/savedata.js"></script>
+		<script src="js/gpio.js"></script>
+		<script src="js/gba.js"></script>
+		<script src="resources/xhr.js"></script>
+		<script src="resources/biosbin.js"></script>
 
 		<script>
 			let gba;
@@ -43,7 +42,7 @@
 					}
 					let crash = document.createElement('img');
 					crash.setAttribute('id', 'crash');
-					crash.setAttribute('src', '/tools/emulators/gba/resources/crash.png');
+					crash.setAttribute('src', 'resources/crash.png');
 					screen.parentElement.insertBefore(crash, screen);
 					screen.setAttribute('class', 'dead');
 				});
@@ -275,7 +274,7 @@
 					}
 				};
 				if (!debug || !debug.postMessage) {
-					debug = window.open('/tools/emulators/gba/debugger.html', 'debug');
+					debug = window.open('debugger.html', 'debug');
 				} else {
 					debug.postMessage('connect', document.domain || '*');
 				}
@@ -311,49 +310,15 @@
 	</head>
 	<body>
 		<canvas id="screen" width="480" height="320"></canvas>
+		
+		
 		<section id="gameinfo">
-			<table id="mapping">
-				<tr>
-					<td>Up</td>
-					<td>Up</td>
-				</tr>
-				<tr>
-					<td>Down</td>
-					<td>Down</td>
-				</tr>
-				<tr>
-					<td>Left</td>
-					<td>Left</td>
-				</tr>
-				<tr>
-					<td>Right</td>
-					<td>Right</td>
-				</tr>
-				<tr>
-					<td>A</td>
-					<td>Z</td>
-				</tr>
-				<tr>
-					<td>B</td>
-					<td>X</td>
-				</tr>
-				<tr>
-					<td>L</td>
-					<td>A</td>
-				</tr>
-				<tr>
-					<td>R</td>
-					<td>S</td>
-				</tr>
-				<tr>
-					<td>Start</td>
-					<td>Enter</td>
-				</tr>
-				<tr>
-					<td>Select</td>
-					<td>\</td>
-				</tr>
-			</table>
+	<!-- Button to open the modal -->
+
+
+
+
+
 		</section>
 		<section id="controls">
 			<div id="preload">
@@ -372,11 +337,11 @@
 					<script>
 					// Run game url
 					window.addEventListener('DOMContentLoaded', () => {
-					  const filePath = '/games/pokemon-red/files/game.gba';
+					  const filePath = 'game.gba';
 					  fetch(filePath)
 						.then(response => response.blob())
 						.then(blob => {
-						  const file = new File([blob], '/games/pokemon-red/files/game.gba', {type: 'application/octet-stream'});
+						  const file = new File([blob], 'game.gba', {type: 'application/octet-stream'});
 						  const loader = {
 							files: [file],
 						  };
@@ -394,12 +359,12 @@
 				/>
 			</div>
 			<div id="ingame" class="hidden">
-				<button id="pause" class="bigbutton" onclick="togglePause()">
+				<button id="pause"  onclick="togglePause()">
 					PAUSE
 				</button>
-				<button class="bigbutton" onclick="reset()">RESET</button>
+				<button  onclick="reset()">RESET</button>
 				<button onclick="gba.downloadSavedata()">
-					Download Savegame
+					Save
 				</button>
 				<button onclick="screenshot()">Screenshot</button>
 				<button onclick="fullScreen()">Full screen</button>
@@ -426,7 +391,6 @@
 						oninput="setVolume(this.value)"
 					/>
 				</div>
-				<p id="openDebug" onclick="enableDebug()">Debugger</p>
 			</div>
 		</section>
 
