@@ -1,5 +1,5 @@
 ---
-layout: flash
+layout: gba
 title: "Pokémon Red Version (USA, Europe)"
 categories:
  - approved
