@@ -1,15 +1,15 @@
 ---
 layout: gba
-title: "Mario Kart - Super Circuit (USA)"
+title: "Advance Wars (USA)"
 categories:
  - approved
  - gba
  - universal
  - safe
 tags:
-- mario
+- war, ig? idk
 date: May 9, 2023
-permalink: /games/super-circuit/play/details
+permalink: /games/advance-wars/play/details
 publisher: Nintendo
-id: super-circuit
+id: advance-wars
 ---
