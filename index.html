@@ -72,9 +72,9 @@
                                         <div class="swiper-slide">
                                             <div class="game-card">
                                                 <div class="game-card__box">
-                                                    <div class="game-card__media"><a href="{{post.permalink}}"><img src="{% if post.categories contains 'flash' or post.categories contains 'as3g' or post.categories contains 'as3b' %}https://flash.g.arcade.yeahgames.net/published/{{post.permalink|remove:'/games/'|remove:'details'|remove:'.html'|remove:'/'}}/files/image.png{% endif %}
+                                                    <div class="game-card__media"><a href="{{post.permalink}}"><img src="{% if post.categories contains 'flash' or post.categories contains 'as3g' or post.categories contains 'as3b' %}https://flash.g.arcade.yeahgames.net/published/{{post.permalink|remove:'/games/'|remove:'details'|remove:'.html'|remove:'/'|remove:'play'}}/files/image.png{% endif %}
                                                         
-                                                        {% if post.categories contains 'gba' %}https://gba.tools.player.yeahgames.net/published/{{post.permalink|remove:'/games/'|remove:'details'|remove:'.html'|remove:'/'}}/image.png{% endif %}" alt="Featured image: {{post.title}}" title="Featured image" /></a></div>
+                                                        {% if post.categories contains 'gba' %}https://gba.tools.player.yeahgames.net/published/{{post.permalink|remove:'/games/'|remove:'details'|remove:'.html'|remove:'/'|remove:'play'}}/image.png{% endif %}" alt="Featured image: {{post.title}}" title="Featured image" /></a></div>
                                                     <div class="game-card__info"><a class="game-card__title" href="{{post.permalink}}">{{post.title}}</a>
                                                         <div class="game-card__genre">{{post.publisher}}</div>
                                                         <div class="game-card__bottom">
@@ -112,9 +112,9 @@
                                         <div class="swiper-slide">
                                             <div class="game-card">
                                                 <div class="game-card__box">
-                                                    <div class="game-card__media"><a href="{{post.permalink}}"><img src="{% if post.categories contains 'flash' or post.categories contains 'as3g' or post.categories contains 'as3b' %}https://flash.g.arcade.yeahgames.net/published/{{post.permalink|remove:'/games/'|remove:'details'|remove:'.html'|remove:'/'}}/files/image.png{% endif %}
+                                                    <div class="game-card__media"><a href="{{post.permalink}}"><img src="{% if post.categories contains 'flash' or post.categories contains 'as3g' or post.categories contains 'as3b' %}https://flash.g.arcade.yeahgames.net/published/{{post.permalink|remove:'/games/'|remove:'details'|remove:'.html'|remove:'/'|remove:'play'}}/files/image.png{% endif %}
                                                         
-                                                        {% if post.categories contains 'gba' %}https://gba.tools.player.yeahgames.net/published/{{post.permalink|remove:'/games/'|remove:'details'|remove:'.html'|remove:'/'}}/image.png{% endif %}" alt="Featured image: {{post.title}}" title="Featured image" /></a></div>
+                                                        {% if post.categories contains 'gba' %}https://gba.tools.player.yeahgames.net/published/{{post.permalink|remove:'/games/'|remove:'details'|remove:'.html'|remove:'/'|remove:'play'}}/image.png{% endif %}" alt="Featured image: {{post.title}}" title="Featured image" /></a></div>
                                                     <div class="game-card__info"><a class="game-card__title" href="{{post.permalink}}">{{post.title}}</a>
                                                         <div class="game-card__genre">{{post.publisher}}</div>
                                                         <div class="game-card__bottom">
