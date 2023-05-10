@@ -28,21 +28,21 @@
   {% endfor %}
 {% endfor %}
 
-<div><select class="js-select"  onchange="window.location.href = this.value;">
+<div><select class="js-select" onchange="window.location.href = this.value;">
         <option value="/sort/type">Sort: Type</option>
 
-    <option value="Category 1">HTML5</option>
-    <option value="Category 2">Flash</option>
-    <option value="Category 3">Gameboy</option>
-    <option value="Gameboy Advanced">Gameboy Advanced</option>
-    <option value="NES">NES</option>
+    <option value="/sort/type/html5">HTML5</option>
+    <option value="/sort/type/flash">Flash</option>
+    <option value="/sort/type/gb">Gameboy</option>
+    <option value="/sort/type/gba">Gameboy Advanced</option>
+    <option value="/sort/type/nes">NES</option>
 
 
 </select></div>
-                <div><select class="js-select">
-                    <a href="/sort/cat/"><option value="Sort">Sort: Category</option></a>
+                <div><select class="js-select" onchange="window.location.href = this.value;">
+                    <option value="/sort/cat">Sort: Category</option>
                         {% for category in categories %}
-                        <a href="/sort/cat/{{category}}"><option value="{{category}}">{{category}}</option></a>{% endfor %}
+                        <option value="/sort/cat/{{category}}">{{category}}</option>{% endfor %}
                     
                     </select></div>
                
@@ -55,13 +55,26 @@
                       {% endfor %}
                     {% endfor %}
 
-                <div><select class="js-select">
-                        <a href="/sort/tag/"><option value="Sort">Sort: Tag</option></a>
+                <div><select class="js-select" onchange="window.location.href = this.value;">
+                        <option value="/sort/tag">Sort: Tag</option>
                         {% for tag in tags %}
-                        <a href="/sort/cat/{{tag}}"><option value="{{tag}}">{{tag}}</option></a>{% endfor %}
+                        <option value="/sort/tag/{{tag}}">{{tag}}</option>{% endfor %}
                     </select></div>
 
-                    
+                    {% assign publishers = "" | split: "," %}
+{% for post in site.posts %}
+  {% if post.publisher %}
+    {% unless publishers contains post.publisher %}
+      {% assign publishers = publishers | push: post.publisher %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+
+<div><select class="js-select" onchange="window.location.href = this.value;">
+    <option value="/sort/pub">Sort: Publisher</option>
+    {% for publisher in publishers %}
+    <option value="/sort/pub/{{publisher}}">{{publisher}}</option>{% endfor %}
+</select></div>
               
                     <div class="uk-text-right" style="position:absolute;right:3%;float:right!important;top:5.7%;"><a href="#!"><span id="count"></span> items loaded</a></div>
                     <script>
