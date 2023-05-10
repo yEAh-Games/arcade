@@ -9,7 +9,7 @@ categories:
 tags:
 - sonic
 date: May 9, 2023
-permalink: /games/sonic-adcance-2/play/details
+permalink: /games/sonic-advance-2/play/details
 publisher: Nintendo
-id: sonic-adcance-2
+id: sonic-advance-2
 ---
