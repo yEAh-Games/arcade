@@ -1,0 +1,90 @@
+ <main class="page-main">
+                <center></center>
+                <div class="uk-grid" data-uk-grid>
+                    <div class="uk-width-3-3@l uk-width-3-3@m uk-width-3-3@s">
+                        <div class="js-recommend">
+                            <!--<div class="swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="recommend-slide">
+                                                <a href=""><img src="//cdn.balls" alt="banner"></a>
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="swiper-slide">
+                                        <div class="recommend-slide">
+                                            <div class="tour-slide__box">
+                                                <a href=""><img src="assets/img/t2.jpg" alt="banner"></a>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="swiper-slide">
+                                        <div class="recommend-slide">
+                                            <div class="tour-slide__box">
+                                                <a href=""><img src="assets/img/t1.jpg" alt="banner"></a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="swiper-slide">
+                                        <div class="recommend-slide">
+                                            <div class="tour-slide__box">
+                                                <a href=""><img src="assets/img/t2.jpg" alt="banner"></a>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="swipper-nav">
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-button-next"></div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>-->
+
+                    <div class="uk-width-1-1">
+                       
+                                    {% assign sorted_posts = site.posts | sort: 'date' | reverse%}
+                                    {% for post in sorted_posts %}
+                                       
+                                            <div class="game-card">
+                                                <div class="game-card__box">
+                                                    <div class="game-card__media"><a href="{{post.permalink}}"><img src="{% if post.categories contains 'flash' or post.categories contains 'as3g' or post.categories contains 'as3b' %}https://flash.g.arcade.yeahgames.net/published/{{post.permalink|remove:'/games/'|remove:'details'|remove:'.html'|remove:'/'|remove:'play'}}/files/image.png{% endif %}
+                                                        
+                                                        {% if post.categories contains 'gba' %}https://gba.tools.player.yeahgames.net/published/{{post.permalink|remove:'/games/'|remove:'details'|remove:'.html'|remove:'/'|remove:'play'}}/image.png{% endif %}" alt="Featured image: {{post.title}}" title="Featured image" /></a></div>
+                                                    <div class="game-card__info"><a class="game-card__title" href="{{post.permalink}}">{{post.title}}</a>
+                                                        <div class="game-card__genre">{{post.publisher}}</div>
+                                                        <div class="game-card__bottom">
+                                                            <div class="game-card__platform">{% include cats-post.html %}</div>
+                                                            <div class="game-card__users">
+                                                                
+                                                            </div>
+                                                            <div class="game-card__rating-and-price">
+                                                                <div class="game-card__price" style="float:right!important"><a href="{{post.permalink}}"><button  style="width:30px!important;height:35px!important;background-color:#5e9c00" title="Play it now for free!" class="uk-button uk-button-primary uk-width-2-2"><i class="fa-solid fa-circle-play"></i></button></a></div>
+                                                            </div>
+                                                        </div>
+                                               
+                                        
+                                    {% endfor %}
+                                    
+                                    
+                                </div>
+                             
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </main>
