@@ -29,12 +29,15 @@
 {% endfor %}
 
 <div><select class="js-select">
-    <a href="/sort/type/"><option value="">Sort: Type</option></a>
-    <option value="Category 1"><a href="/sort/type/html5">HTML5</a></option></a>
-    <a href="/sort/type/flash"></a><option value="Category 2">Flash</option></a>
-    <a href="/sort/type/gb"></a><option value="Category 3">Gameboy</option></a>
-    <a href="/sort/type/gba"></a><option value="Gameboy Advanced">Gameboy Advanced</option></a>
-    <a href="/sort/type/nes"></a><option value="NES">NES</option></a>
+    <select onchange="window.location.href = this.value;">
+        <option value="/sort/type">Sort: Type</option>
+    </select>
+
+    <option value="Category 1">HTML5</option>
+    <option value="Category 2">Flash</option>
+    <option value="Category 3">Gameboy</option>
+    <option value="Gameboy Advanced">Gameboy Advanced</option>
+    <option value="NES">NES</option>
 
 
 </select></div>
