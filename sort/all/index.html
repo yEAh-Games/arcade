@@ -64,6 +64,9 @@
                     </div>-->
 
                     <div class="uk-width-1-1">
+                        <div class="js-popular">
+                            <div class="swiper">
+                                <div class="swiper-wrapper">
                        
                                     {% assign sorted_posts = site.posts | sort: 'date' | reverse%}
                                     {% for post in sorted_posts %}
