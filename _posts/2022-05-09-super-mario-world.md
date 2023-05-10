@@ -1,6 +1,6 @@
 ---
 layout: gba
-title: "Super Mario Advance 2 - Super Mario World"
+title: "Super Mario Advance 2 - Super Mario World (USA)"
 categories:
  - approved
  - gba

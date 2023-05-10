@@ -1,6 +1,6 @@
 ---
 layout: gba
-title: "Mario & Luigi - Superstar Saga"
+title: "Mario & Luigi - Superstar  (USA)"
 categories:
  - approved
  - gba

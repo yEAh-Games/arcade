@@ -1,6 +1,6 @@
 ---
 layout: gba
-title: "Pokémon Emerald Version (USA, Europe)"
+title: "Pokémon Emerald Version (USA)"
 categories:
  - approved
  - gba

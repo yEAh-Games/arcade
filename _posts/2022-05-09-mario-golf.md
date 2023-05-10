@@ -1,6 +1,6 @@
 ---
 layout: gba
-title: "Mario golf - Advance Tour"
+title: "Mario golf - Advance Tour (USA)"
 categories:
  - approved
  - gba

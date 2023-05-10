@@ -7,7 +7,7 @@ categories:
  - universal
  - safe
 tags:
-- Zelda
+- zelda
 date: May 9, 2023
 permalink: /games/tloz-minishcap/play/details
 publisher: Nintendo

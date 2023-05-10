@@ -1,6 +1,6 @@
 ---
 layout: gba
-title: "Pokémon Ruby Version (USA, Europe)"
+title: "Pokémon Ruby Version (USA)"
 categories:
  - approved
  - gba

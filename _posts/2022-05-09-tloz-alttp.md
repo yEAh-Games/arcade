@@ -1,6 +1,6 @@
 ---
 layout: gba
-title: "The Legend of Zelda - A Link to the Past"
+title: "The Legend of Zelda - A Link to the Past (USA)"
 categories:
  - approved
  - gba
