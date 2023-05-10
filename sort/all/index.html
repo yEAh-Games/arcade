@@ -64,7 +64,8 @@
                     </div>-->
 
                     <div class="uk-width-1-1">
-                       
+                        <div class="js-popular">
+                                <div class="swiper-wrapper">
                                     {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
                                     {% for post in sorted_posts %}
                                         <div class="swiper-slide">
@@ -85,12 +86,17 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                            
+                                                </div>
+                                            </div>
                                     {% endfor %}
                                     
                                     
                                 </div>
-                        
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                                <br>
+                                <br>
+                                <div class="swiper-pagination"></div>
                             </div>
                         </div>
                     </div>
