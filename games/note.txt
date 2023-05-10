@@ -1,0 +1,1 @@
+Games should be stored in their respective repositories, not here (unless they are waiting to be sorted). The repo should be at yeah-games/typename/published (e.g., Flash games should be at yeah-games/flash/published). Metadata still has to be filled out with a markdown file in this repository's _posts directory, and everything else should be done automatically.
