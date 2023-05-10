@@ -10,6 +10,6 @@ tags:
 - pokemon
 date: May 9, 2023
 permalink: /games/pokemon-firered/play/details
-publisher: Gamefreak
+publisher: The Pokémon Company
 id: pokemon-firered
 ---
