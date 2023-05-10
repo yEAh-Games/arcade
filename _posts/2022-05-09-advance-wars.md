@@ -7,7 +7,9 @@ categories:
  - universal
  - safe
 tags:
-- war, ig? idk
+- war
+- advance-wars
+- strategy
 date: May 9, 2023
 permalink: /games/advance-wars/play/details
 publisher: Nintendo
