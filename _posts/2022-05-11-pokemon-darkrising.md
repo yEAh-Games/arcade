@@ -3,7 +3,7 @@ layout: gba
 title: "Pokemon Dark Rising Version (Global)"
 categories:
  - approved
- - nds
+ - gba
  - universal
  - safe
 tags:

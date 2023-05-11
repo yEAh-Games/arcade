@@ -3,7 +3,7 @@ layout: gba
 title: "Pokemon Dark Rising 2 Version (Global)"
 categories:
  - approved
- - nds
+ - gba
  - universal
  - safe
 tags:
