@@ -11,6 +11,6 @@ tags:
 - rpg
 date: May 10, 2023
 permalink: /games/pokemon-heartgold/play/details
-publisher: Nintendo
+publisher: Gamefreak
 id: pokemon-heartgold
 ---

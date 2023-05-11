@@ -10,6 +10,6 @@ tags:
 - tony hawk
 date: May 9, 2023
 permalink: /games/tony-hawk-underground/play/details
-publisher: Nintendo
+publisher: Activision
 id: tony-hawk-underground
 ---

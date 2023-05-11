@@ -10,6 +10,6 @@ tags:
 - rayman
 date: May 9, 2023
 permalink: /games/rayman-advance/play/details
-publisher: Nintendo
+publisher: Ubisoft
 id: rayman-advance
 ---

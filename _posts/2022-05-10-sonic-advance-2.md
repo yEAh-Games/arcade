@@ -10,6 +10,6 @@ tags:
 - sonic
 date: May 9, 2023
 permalink: /games/sonic-advance-2/play/details
-publisher: Nintendo
+publisher: Sega
 id: sonic-advance-2
 ---

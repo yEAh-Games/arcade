@@ -10,6 +10,6 @@ tags:
 - ace attorney
 date: May 10, 2023
 permalink: /games/ace-attorney-jfa/play/details
-publisher: Nintendo
+publisher: Capcom
 id: ace-attorney-jfa
 ---

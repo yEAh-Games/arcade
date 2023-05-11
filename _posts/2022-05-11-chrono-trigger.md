@@ -10,6 +10,6 @@ tags:
 - jrpg
 date: May 10, 2023
 permalink: /games/chrono-trigger/play/details
-publisher: Nintendo
+publisher: Square Enix
 id: chrono-trigger
 ---
