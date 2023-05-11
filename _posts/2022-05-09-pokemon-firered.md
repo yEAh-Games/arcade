@@ -1,6 +1,6 @@
 ---
 layout: gba
-title: "Pokemon Fire Red Version (USA)"
+title: "Pokémon Fire Red Version (USA)"
 categories:
  - approved
  - gba

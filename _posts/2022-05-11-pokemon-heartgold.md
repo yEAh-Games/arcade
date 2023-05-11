@@ -1,6 +1,6 @@
 ---
 layout: nds
-title: "Pokemon HeartGold Version (USA, Europe)"
+title: "Pokémon HeartGold Version (USA, Europe)"
 categories:
  - approved
  - nds

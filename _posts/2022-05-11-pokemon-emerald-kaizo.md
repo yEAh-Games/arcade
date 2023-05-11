@@ -1,15 +1,15 @@
 ---
 layout: gba
-title: "Pokemon Emerald Kaizo Version (Global)"
+title: "Pokémon Emerald Kaizo Version (Global)"
 categories:
  - approved
- - nds
+ - gba
  - universal
  - safe
 tags:
 - pokemon
 - rpg
-date: May 10, 2023
+date: May 11, 2023
 permalink: /games/pokemon-emerald-kaizo/play/details
 publisher: (Not) Gamefreak
 id: pokemon-emerald-kaizo
