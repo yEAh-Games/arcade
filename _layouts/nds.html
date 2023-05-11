@@ -58,6 +58,20 @@
             <a href="https://nds.g.arcade.yeahgames.net/published/{{page.permalink|remove:'/games/'|remove:'/play/details'}}/full"><button class="uk-button uk-button-danger uk-width-1-1" style="color:#ffff"  type="button"><i class="fa-solid fa-up-right-and-down-left-from-center"></i>&#160;&#160;&#160;<span style="font-weight:bolder">FULL SCREEN</span></button></a>
           </div>
           
+          <script>
+            // Set focus on the iframe when the page loads
+            window.onload = function() {
+              document.getElementById("game-iframe").focus();
+            }
+      
+            // Prevent the user from switching focus away from the iframe
+            document.addEventListener("keydown", function(e) {
+              if (e.key === "Tab" || e.keyCode === 9) {
+                e.preventDefault();
+              }
+            });
+          </script>
+
 <script>
   // Get the game iframe element
   const iframe = document.getElementById("game-iframe");
