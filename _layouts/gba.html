@@ -54,7 +54,7 @@
                   {% for tag in page.tags %}<li><span>{{tag}}</span></li>{% endfor %}
               </ul>
           </div>
-            <div class="game-profile-price" style="margin-bottom:3px!important;padding:7px!important">
+            <div class="game-profile-price" style="margin-bottom:3px!important;padding:2px!important">
               <center>
             <a href="https://gba.tools.player.yeahgames.net/published/advance-wars/full"><button class="uk-button uk-button-danger uk-width-1-3
                            " style="color:#ffff" type="button"><i class="fa-solid fa-up-right-and-down-left-from-center"></i>&nbsp;&nbsp;&nbsp;<span style="font-weight:bolder">FULL</span></button></a>&nbsp;&nbsp;&nbsp;
@@ -66,9 +66,7 @@
   // Get the game iframe element
   const iframe = document.getElementById("game-iframe");
 
-  // Define the openFullScreen() function
   function openFullScreen() {
-    // Call the fullScreen() function in the iframe
     iframe.contentWindow.fullScreen();
   }
 </script>
@@ -80,7 +78,6 @@
       </div>
   </div>
 </main>
-<script src="/assets/ruffle/ruffle.js"></script>
 
 {% include body2.html %}
 
