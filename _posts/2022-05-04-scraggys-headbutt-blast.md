@@ -3,7 +3,7 @@ layout: flash
 title: "Scraggy's Headbutt Blast!"
 categories:
  - approved
- - as3g
+ - flash
  - universal
  - safe
 tags:

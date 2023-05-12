@@ -3,7 +3,7 @@ layout: flash
 title: "Pokémon Tower Defense"
 categories:
  - approved
- - as3g
+ - flash
  - universal
  - safe
 tags:
