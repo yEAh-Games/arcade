@@ -10,6 +10,6 @@ tags:
 - war
 date: May 10, 2023
 permalink: /games/advance-wars-dor/play/details
-publisher: Nintend
+publisher: Nintendo
 id: advance-wars-dor
 ---
