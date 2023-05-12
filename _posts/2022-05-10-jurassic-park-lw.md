@@ -5,6 +5,7 @@ categories:
  - approved
  - mame
  - universal
+ - arcade
  - safe
 tags:
 - jurassic-park

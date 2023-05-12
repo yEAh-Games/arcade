@@ -2,7 +2,7 @@
 ---
 <!DOCTYPE html>
 <html lang="en">
-<title>Sort: Type: nds • Search | yEAh Arcade</title>
+<title>Sort: Type: gb • Search | yEAh Arcade</title>
 
 {% include head.html %}
 
@@ -10,7 +10,7 @@
 <main class="page-main">
     {% include searchwidget.html %}
     <div class="uk-grid uk-child-width-1-6@xl uk-child-width-1-4@l uk-child-width-1-3@s uk-flex-middle uk-grid-small" data-uk-grid>
-        {% assign sorted_posts = site.posts | where_exp: "post", "post.categories contains 'nds'" | sort_natural: 'title' %}
+        {% assign sorted_posts = site.posts | where_exp: "post", "post.categories contains 'gb'" | sort_natural: 'title' %}
         {% for post in sorted_posts %}
         <div>
             {% include swiper-slide.html %}                                
