@@ -8,9 +8,9 @@ categories:
  - safe
 tags:
 - rpg
-- mario & luigi
+- mario-luigi
 date: May 10, 2023
-permalink: /games/m&l-partners-in-time/play/details
+permalink: /games/ml-partners-in-time/play/details
 publisher: Nintendo
-id: m&l-partners-in-time
+id: ml-partners-in-time
 ---

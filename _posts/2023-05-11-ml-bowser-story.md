@@ -8,9 +8,9 @@ categories:
  - safe
 tags:
 - rpg
-- mario & luigi
+- mario-luigi
 date: May 10, 2023
-permalink: /games/m&l-bowser-story/play/details
+permalink: /games/ml-bowser-story/play/details
 publisher: Nintendo
-id: m&l-bowser-story
+id: ml-bowser-story
 ---
