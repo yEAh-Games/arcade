@@ -7,7 +7,7 @@
                     href="{{post.permalink}}">{{post.title}}</a>
                 <div class="game-card__genre" title="{{post.publisher}}"><a
                         style="text-decoration: none!important;color:inherit;"
-                        href="/sort/ed/{{post.publisher}}">{{post.publisher}}</a></div>
+                        href="/sort/pub/{{post.publisher}}">{{post.publisher}}</a></div>
                 {% assign edition_generator = post.permalink | remove: '/us' | remove: '/eu' %}
                 <div class="game-card__genre" style="position:absolute;right:5%;top:70.8%" title="This game is the {{post.edition}} version of {% for post in site.posts %}
                                                         {% if post.url == edition_generator %}
