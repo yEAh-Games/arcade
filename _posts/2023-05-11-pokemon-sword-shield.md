@@ -1,6 +1,7 @@
 ---
 layout: gba
 title: "Pokémon espada e escudo"
+ogtitle: "Pokémon Sword and Shield Version"
 categories:
  - approved
  - gba

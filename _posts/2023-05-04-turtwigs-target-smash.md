@@ -12,4 +12,5 @@ date: May 4, 2023
 permalink: /games/turtwigs-target-smash/play/details
 publisher: The Pokémon Company
 gid: turtwigs-target-smash
+edition: xx
 ---
