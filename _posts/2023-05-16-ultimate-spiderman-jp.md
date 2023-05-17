@@ -1,6 +1,7 @@
 ---
 layout: nds
-title: "Ultimate Spider-Man"
+title: 究極のスパイダーマン
+ogtitle: "Ultimate Spider-Man"
 categories:
  - approved
  - nds
