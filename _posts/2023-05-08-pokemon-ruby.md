@@ -1,6 +1,6 @@
 ---
 layout: gba
-title: "Pokémon Ruby Version (USA)"
+title: "Pokémon Ruby Version"
 categories:
  - approved
  - gba
@@ -11,5 +11,6 @@ tags:
 date: May 8, 2023
 permalink: /games/pokemon-ruby/play/details
 publisher: The Pokémon Company
+edition: us
 gid: pokemon-ruby
 ---

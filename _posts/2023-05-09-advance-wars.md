@@ -1,6 +1,6 @@
 ---
 layout: gba
-title: "Advance Wars (USA)"
+title: "Advance Wars"
 categories:
  - approved
  - gba
@@ -13,5 +13,7 @@ tags:
 date: May 9, 2023
 permalink: /games/advance-wars/play/details
 publisher: Nintendo
+edition: us
+redirect_from: /games/:gid/:edition/play/details
 gid: advance-wars
 ---
