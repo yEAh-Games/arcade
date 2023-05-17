@@ -11,9 +11,9 @@ tags:
 - advance-wars
 - strategy
 date: May 9, 2023
-permalink: /games/:gid/play/details
+permalink: /games/advance-wars/play/details
 publisher: Nintendo
 edition: us
 gid: advance-wars
-redirect_from: "/games/advance-wars/us/play/details"
+redirect_from: /games/advance-wars/us/play/details
 ---
