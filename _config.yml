@@ -4,7 +4,3 @@ description: Play HTML5, Flash, Gameboy, DS and more retro games in your browser
 plugins:
  - jekyll-seo-tag
  - jekyll-sitemap
- - jekyll-tagging
-
-tag_page_layout: tag
-tag_page_dir: sort/tag
