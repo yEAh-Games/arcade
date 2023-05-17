@@ -1,6 +1,6 @@
 ---
 layout: nds
-title: "Ultimate Spider-Man"
+title: "Ultimate Spider-Man (Japan)"
 categories:
  - approved
  - nds
@@ -11,5 +11,6 @@ tags:
 date: May 16, 2023
 publisher: Activision
 id: ultimate-spiderman-jp
+permalink: /games/:id/:edition/play/details
 edition: jp
 ---
