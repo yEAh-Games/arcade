@@ -12,5 +12,5 @@ tags:
 date: May 11, 2023
 permalink: /games/pokemon-emerald-kaizo/play/details
 publisher: (Not) Gamefreak
-id: pokemon-emerald-kaizo
+gid: pokemon-emerald-kaizo
 ---

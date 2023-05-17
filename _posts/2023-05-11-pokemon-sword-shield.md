@@ -13,5 +13,5 @@ tags:
 date: May 11, 2023
 permalink: /games/pokemon-sword-shield/play/details
 publisher: (Not) Gamefreak
-id: pokemon-sword-shield
+gid: pokemon-sword-shield
 ---

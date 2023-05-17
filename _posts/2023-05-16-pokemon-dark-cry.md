@@ -12,5 +12,5 @@ tags:
 date: May 11, 2023
 permalink: /games/pokemon-dark-cry/play/details
 publisher: (Not) Gamefreak
-id: pokemon-dark-cry
+gid: pokemon-dark-cry
 ---

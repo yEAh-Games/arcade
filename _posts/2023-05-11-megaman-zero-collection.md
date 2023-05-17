@@ -11,5 +11,5 @@ tags:
 date: May 10, 2023
 permalink: /games/megaman-zero-collection/play/details
 publisher: Capcom
-id: megaman-zero-collection
+gid: megaman-zero-collection
 ---

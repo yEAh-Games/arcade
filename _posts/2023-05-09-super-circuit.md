@@ -11,5 +11,5 @@ tags:
 date: May 9, 2023
 permalink: /games/super-circuit/play/details
 publisher: Nintendo
-id: super-circuit
+gid: super-circuit
 ---

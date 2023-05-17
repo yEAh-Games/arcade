@@ -12,5 +12,5 @@ tags:
 date: May 16, 2023
 permalink: /games/mario-party-ds/play/details
 publisher: Nintendo
-id: mario-party-ds
+gid: mario-party-ds
 ---

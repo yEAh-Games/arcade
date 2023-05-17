@@ -11,5 +11,5 @@ tags:
 date: May 16, 2023
 permalink: /games/spiderman-shattered-dimensions/play/details
 publisher: Activision
-id: spiderman-shattered-dimensions
+gid: spiderman-shattered-dimensions
 ---

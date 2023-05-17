@@ -11,5 +11,5 @@ tags:
 date: May 9, 2023
 permalink: /games/tloz-minishcap/play/details
 publisher: Nintendo
-id: tloz-minishcap
+gid: tloz-minishcap
 ---

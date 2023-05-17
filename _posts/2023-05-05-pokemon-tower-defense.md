@@ -11,5 +11,5 @@ tags:
 date: May 5, 2023
 permalink: /games/pokemon-tower-defense/play/details
 publisher: The Pokémon Company
-id: pokemon-tower-defense
+gid: pokemon-tower-defense
 ---

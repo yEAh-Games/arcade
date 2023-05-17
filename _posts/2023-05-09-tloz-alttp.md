@@ -11,5 +11,5 @@ tags:
 date: May 9, 2023
 permalink: /games/tloz-alttp/play/details
 publisher: Nintendo
-id: tloz-alttp
+gid: tloz-alttp
 ---

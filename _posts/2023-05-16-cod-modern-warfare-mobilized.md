@@ -11,5 +11,5 @@ tags:
 date: May 16, 2023
 permalink: /games/cod-modern-warfare-mobilized/play/details
 publisher: Activision
-id: cod-modern-warfare-mobilized
+gid: cod-modern-warfare-mobilized
 ---

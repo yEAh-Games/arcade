@@ -11,5 +11,5 @@ tags:
 date: May 9, 2023
 permalink: /games/superstar-saga/play/details
 publisher: Nintendo
-id: superstar-saga
+gid: superstar-saga
 ---

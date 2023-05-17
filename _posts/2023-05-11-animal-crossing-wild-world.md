@@ -12,5 +12,5 @@ tags:
 date: May 10, 2023
 permalink: /games/animal-crossing-wild-world/play/details
 publisher: Nintendo
-id: animal-crossing-wild-world
+gid: animal-crossing-wild-world
 ---

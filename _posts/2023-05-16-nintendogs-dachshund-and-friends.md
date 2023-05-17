@@ -12,5 +12,5 @@ tags:
 date: May 16, 2023
 permalink: /games/nintendogs-dachshund-and-friends/play/details
 publisher: Nintendo
-id: nintendogs-dachshund-and-friends
+gid: nintendogs-dachshund-and-friends
 ---

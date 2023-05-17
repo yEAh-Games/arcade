@@ -12,5 +12,5 @@ tags:
 date: May 11, 2023
 permalink: /games/pokemon-gaia/play/details
 publisher: (Not) Gamefreak
-id: pokemon-gaia
+gid: pokemon-gaia
 ---

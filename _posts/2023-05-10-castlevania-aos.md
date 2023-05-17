@@ -11,5 +11,5 @@ tags:
 date: May 9, 2023
 permalink: /games/castlevania-aos/play/details
 publisher: Konami
-id: castlevania-aos
+gid: castlevania-aos
 ---

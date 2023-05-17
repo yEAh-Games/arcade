@@ -11,5 +11,5 @@ tags:
 date: May 10, 2023
 permalink: /games/chrono-trigger/play/details
 publisher: Square Enix
-id: chrono-trigger
+gid: chrono-trigger
 ---

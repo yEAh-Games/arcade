@@ -12,5 +12,5 @@ tags:
 date: May 11, 2023
 permalink: /games/pokemon-darkrising/play/details
 publisher: (Not) Gamefreak
-id: pokemon-darkrising
+gid: pokemon-darkrising
 ---

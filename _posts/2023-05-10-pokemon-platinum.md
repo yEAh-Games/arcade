@@ -11,5 +11,5 @@ tags:
 date: May 10, 2023
 permalink: /games/pokemon-platinum/play/details
 publisher: Gamefreak
-id: pokemon-platinum
+gid: pokemon-platinum
 ---

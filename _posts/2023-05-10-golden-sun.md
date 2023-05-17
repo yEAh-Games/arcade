@@ -12,5 +12,5 @@ tags:
 date: May 9, 2023
 permalink: /games/golden-sun/play/details
 publisher: Nintendo
-id: golden-sun
+gid: golden-sun
 ---

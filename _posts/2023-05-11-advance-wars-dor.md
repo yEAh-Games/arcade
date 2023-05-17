@@ -11,5 +11,5 @@ tags:
 date: May 10, 2023
 permalink: /games/advance-wars-dor/play/details
 publisher: Nintendo
-id: advance-wars-dor
+gid: advance-wars-dor
 ---

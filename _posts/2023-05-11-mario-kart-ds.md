@@ -11,5 +11,5 @@ tags:
 date: May 10, 2023
 permalink: /games/mario-kart-ds/play/details
 publisher: Nintendo
-id: mario-kart-ds
+gid: mario-kart-ds
 ---

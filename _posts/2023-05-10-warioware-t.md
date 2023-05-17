@@ -11,5 +11,5 @@ tags:
 date: May 9, 2023
 permalink: /games/warioware-t/play/details
 publisher: Nintendo
-id: warioware-t
+gid: warioware-t
 ---

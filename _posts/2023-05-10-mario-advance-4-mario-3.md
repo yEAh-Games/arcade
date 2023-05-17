@@ -12,5 +12,5 @@ tags:
 date: May 9, 2023
 permalink: /games/mario-advance-4-mario-3/play/details
 publisher: Nintendo
-id: mario-advance-4-mario-3
+gid: mario-advance-4-mario-3
 ---

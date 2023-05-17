@@ -11,5 +11,5 @@ tags:
 date: May 9, 2023
 permalink: /games/sonic-advance-3/play/details
 publisher: Sega
-id: sonic-advance-3
+gid: sonic-advance-3
 ---

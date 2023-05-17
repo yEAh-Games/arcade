@@ -11,5 +11,5 @@ tags:
 date: May 16, 2023
 permalink: /games/metroid-prime-hunters/play/details
 publisher: Nintendo
-id: metroid-prime-hunters
+gid: metroid-prime-hunters
 ---

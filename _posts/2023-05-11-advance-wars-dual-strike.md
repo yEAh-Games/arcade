@@ -11,5 +11,5 @@ tags:
 date: May 10, 2023
 permalink: /games/advance-wars-dual-strike/play/details
 publisher: Nintendo
-id: advance-wars-dual-strike
+gid: advance-wars-dual-strike
 ---

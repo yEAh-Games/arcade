@@ -11,5 +11,5 @@ tags:
 date: May 9, 2023
 permalink: /games/castlevania-hod/play/details
 publisher: Konami
-id: castlevania-hod
+gid: castlevania-hod
 ---

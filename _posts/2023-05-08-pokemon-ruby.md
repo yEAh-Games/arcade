@@ -11,5 +11,5 @@ tags:
 date: May 8, 2023
 permalink: /games/pokemon-ruby/play/details
 publisher: The Pokémon Company
-id: pokemon-ruby
+gid: pokemon-ruby
 ---

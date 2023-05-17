@@ -12,5 +12,5 @@ tags:
 date: May 16, 2023
 permalink: /games/nintendogs-shiba-and-friends/play/details
 publisher: Nintendo
-id: nintendogs-shiba-and-friends
+gid: nintendogs-shiba-and-friends
 ---

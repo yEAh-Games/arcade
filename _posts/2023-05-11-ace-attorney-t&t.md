@@ -11,5 +11,5 @@ tags:
 date: May 10, 2023
 permalink: /games/ace-attorney-t&t/play/details
 publisher: Capcom
-id: ace-attorney-t&t
+gid: ace-attorney-t&t
 ---

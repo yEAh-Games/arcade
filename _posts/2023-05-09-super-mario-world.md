@@ -11,5 +11,5 @@ tags:
 date: May 9, 2023
 permalink: /games/super-mario-world/play/details
 publisher: Nintendo
-id: super-mario-world
+gid: super-mario-world
 ---

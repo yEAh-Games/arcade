@@ -12,5 +12,5 @@ tags:
 date: May 10, 2023
 permalink: /games/ml-partners-in-time/play/details
 publisher: Nintendo
-id: ml-partners-in-time
+gid: ml-partners-in-time
 ---

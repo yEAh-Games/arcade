@@ -11,5 +11,5 @@ tags:
 date: May 9, 2023
 permalink: /games/castlevania-cotm/play/details
 publisher: Konami
-id: castlevania-cotm
+gid: castlevania-cotm
 ---

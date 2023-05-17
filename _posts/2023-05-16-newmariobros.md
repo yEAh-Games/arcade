@@ -11,5 +11,5 @@ tags:
 date: May 16, 2023
 permalink: /games/newmariobros/play/details
 publisher: Nintendo
-id: newmariobros
+gid: newmariobros
 ---

@@ -12,5 +12,5 @@ tags:
 date: May 9, 2023
 permalink: /games/advance-wars-2/play/details
 publisher: Nintendo
-id: advance-wars-2
+gid: advance-wars-2
 ---
