@@ -9,7 +9,7 @@
                         style="text-decoration: none!important;color:inherit;"
                         href="/sort/pub/{{post.publisher}}">{{post.publisher}}</a></div>
                 {% assign edition_generator = post.permalink | remove: '/us' | remove: '/eu' | remove: '/jp' %}
-                <div class="game-card__genre" style="position:absolute;right:5%;top:70.8%" title="This game is the {{post.edition}} version of {% for post in site.posts %}{% if post.url == edition_generator %}{{ post.title }}{% endif %}{% endfor %}. "><a
+                <div class="game-card__genre" style="position:absolute;right:5%;top:70.8%" title="This game is the {{post.edition | upcase}} version of {% for post in site.posts %}{% if post.url == edition_generator %}{{ post.title }}{% endif %}{% endfor %}. "><a
                         style="text-decoration: none!important;color:inherit;" href="/sort/ed/{{post.edition}}"><span
                             class="fi fi-{{post.edition}}"></span></a></div>
                 <div class="game-card__bottom">
