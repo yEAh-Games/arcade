@@ -10,6 +10,6 @@ tags:
 - spiderman
 date: May 16, 2023
 publisher: Activision
-uid: ultimate-spiderman-jp
+id: ultimate-spiderman-jp
 edition: jp
 ---
