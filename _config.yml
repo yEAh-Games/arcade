@@ -5,4 +5,4 @@ plugins:
  - jekyll-seo-tag
  - jekyll-sitemap
 
-permalink: /games/:id/:edition/play/details
+permalink: /games/:uid/:edition/play/details
