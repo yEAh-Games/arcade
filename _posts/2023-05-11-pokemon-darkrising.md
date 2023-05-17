@@ -1,6 +1,6 @@
 ---
 layout: gba
-title: "Pokémon Dark Rising Version (Global)"
+title: "Pokémon Dark Rising Version"
 categories:
  - approved
  - gba
@@ -13,4 +13,5 @@ date: May 11, 2023
 permalink: /games/pokemon-darkrising/play/details
 publisher: (Not) Gamefreak
 gid: pokemon-darkrising
+edition: us
 ---

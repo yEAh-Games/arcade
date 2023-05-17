@@ -1,6 +1,6 @@
 ---
 layout: nds
-title: "Phoenix Wright - Ace Attorney - Trials and Tribulations (USA, Europe)"
+title: "Phoenix Wright - Ace Attorney - Trials and Tribulations"
 categories:
  - approved
  - nds
@@ -9,7 +9,11 @@ categories:
 tags:
 - ace attorney
 date: May 10, 2023
-permalink: /games/ace-attorney-t&t/play/details
+permalink: /games/ace-attorney-tt/play/details
 publisher: Capcom
-gid: ace-attorney-t&t
+gid: ace-attorney-tt
+edition: us
+redirect_from:
+ - /games/ace-attorney-tt/eu/play/details
+ - /games/ace-attorney-tt/us/play/details
 ---

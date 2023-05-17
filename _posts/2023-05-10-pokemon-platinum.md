@@ -1,6 +1,6 @@
 ---
 layout: nds
-title: "Pokémon Platinum Version (USA)"
+title: "Pokémon Platinum Version"
 categories:
  - approved
  - nds
@@ -10,6 +10,7 @@ tags:
 - pokemon
 date: May 10, 2023
 permalink: /games/pokemon-platinum/play/details
-publisher: Gamefreak
+publisher: The Pokémon Company
 gid: pokemon-platinum
+edition: us
 ---

@@ -1,6 +1,6 @@
 ---
 layout: gba
-title: "Castlevania - Harmony of Dissonance (USA)"
+title: "Castlevania - Harmony of Dissonance"
 categories:
  - approved
  - gba
@@ -12,4 +12,5 @@ date: May 9, 2023
 permalink: /games/castlevania-hod/play/details
 publisher: Konami
 gid: castlevania-hod
+edition: us
 ---

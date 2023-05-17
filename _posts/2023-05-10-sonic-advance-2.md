@@ -1,6 +1,6 @@
 ---
 layout: gba
-title: "Sonic Advance 2 (USA)"
+title: "Sonic Advance 2"
 categories:
  - approved
  - gba
@@ -12,4 +12,5 @@ date: May 9, 2023
 permalink: /games/sonic-advance-2/play/details
 publisher: Sega
 gid: sonic-advance-2
+edition: us
 ---

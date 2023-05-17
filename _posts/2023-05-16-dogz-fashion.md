@@ -12,5 +12,6 @@ tags:
 date: May 16, 2023
 permalink: /games/dogz-fashion/play/details
 publisher: Ubisoft
+edition: us
 gid: dogz-fashion
 ---

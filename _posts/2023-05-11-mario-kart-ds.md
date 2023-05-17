@@ -1,6 +1,6 @@
 ---
 layout: nds
-title: "Mario Kart DS (USA)"
+title: "Mario Kart DS"
 categories:
  - approved
  - nds
@@ -11,5 +11,6 @@ tags:
 date: May 10, 2023
 permalink: /games/mario-kart-ds/play/details
 publisher: Nintendo
+edition: us
 gid: mario-kart-ds
 ---

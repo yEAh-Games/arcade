@@ -13,5 +13,6 @@ tags:
 date: May 10, 2023
 permalink: /games/jurassic-park-lw/play/details
 publisher: SEGA
+edition: eu
 gid: jurassic-park-lw
 ---

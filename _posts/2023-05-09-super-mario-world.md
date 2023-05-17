@@ -1,6 +1,6 @@
 ---
 layout: gba
-title: "Super Mario Advance 2 - Super Mario World (USA)"
+title: "Super Mario Advance 2 - Super Mario World"
 categories:
  - approved
  - gba
@@ -12,4 +12,5 @@ date: May 9, 2023
 permalink: /games/super-mario-world/play/details
 publisher: Nintendo
 gid: super-mario-world
+edition: us
 ---

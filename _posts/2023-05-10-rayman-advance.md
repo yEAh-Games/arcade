@@ -1,6 +1,6 @@
 ---
 layout: gba
-title: "Rayman Advance (USA)"
+title: "Rayman Advance"
 categories:
  - approved
  - gba
@@ -12,4 +12,5 @@ date: May 9, 2023
 permalink: /games/rayman-advance/play/details
 publisher: Ubisoft
 gid: rayman-advance
+edition: us
 ---

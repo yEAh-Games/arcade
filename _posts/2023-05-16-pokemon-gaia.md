@@ -1,6 +1,6 @@
 ---
 layout: gba
-title: "Pokémon Gaia Version (Global)"
+title: "Pokémon Gaia Version"
 categories:
  - approved
  - gba
@@ -13,4 +13,5 @@ date: May 11, 2023
 permalink: /games/pokemon-gaia/play/details
 publisher: (Not) Gamefreak
 gid: pokemon-gaia
+edition: us
 ---

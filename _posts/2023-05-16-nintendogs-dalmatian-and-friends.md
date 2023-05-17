@@ -12,5 +12,6 @@ tags:
 date: May 16, 2023
 permalink: /games/nintendogs-dalmatian-and-friends/play/details
 publisher: Nintendo
+edition: us
 gid: nintendogs-dalmatian-and-friends
 ---

@@ -12,5 +12,6 @@ tags:
 date: May 16, 2023
 permalink: /games/nintendogs-best-friends/play/details
 publisher: Nintendo
+edition: us
 gid: nintendogs-best-friends
 ---

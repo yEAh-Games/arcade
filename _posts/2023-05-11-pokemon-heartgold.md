@@ -1,6 +1,6 @@
 ---
 layout: nds
-title: "Pokémon HeartGold Version (USA, Europe)"
+title: "Pokémon HeartGold Version"
 categories:
  - approved
  - nds
@@ -11,6 +11,10 @@ tags:
 - rpg
 date: May 10, 2023
 permalink: /games/pokemon-heartgold/play/details
-publisher: Gamefreak
+publisher: The Pokémon Company
+edition: us
+redirect_from:
+ - /games/pokemon-heartgold/eu/play/details
+ - /games/pokemon-heartgold/us/play/details
 gid: pokemon-heartgold
 ---

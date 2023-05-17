@@ -1,6 +1,6 @@
 ---
 layout: gba
-title: "Pokémon Sword and Shield Version (Portuguese)"
+title: "Pokémon espada e escudo"
 categories:
  - approved
  - gba
@@ -11,7 +11,9 @@ tags:
 - rpg
 - forgein
 date: May 11, 2023
-permalink: /games/pokemon-sword-shield/play/details
+permalink: /games/pokemon-sword-shield/pt/play/details
 publisher: (Not) Gamefreak
 gid: pokemon-sword-shield
+edition: pt
+alt: true
 ---

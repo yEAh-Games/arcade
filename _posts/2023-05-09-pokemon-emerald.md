@@ -1,6 +1,6 @@
 ---
 layout: gba
-title: "Pokémon Emerald Version (USA)"
+title: "Pokémon Emerald Version"
 categories:
  - approved
  - gba
@@ -12,4 +12,5 @@ date: May 9, 2023
 permalink: /games/pokemon-emerald/play/details
 publisher: The Pokémon Company
 gid: pokemon-emerald
+edition: us
 ---

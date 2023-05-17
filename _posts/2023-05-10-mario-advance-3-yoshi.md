@@ -12,5 +12,6 @@ tags:
 date: May 9, 2023
 permalink: /games/mario-advance-3-yoshi/play/details
 publisher: Nintendo
+edition: us
 gid: mario-advance-3-yoshi
 ---

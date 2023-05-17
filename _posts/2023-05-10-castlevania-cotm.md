@@ -1,6 +1,6 @@
 ---
 layout: gba
-title: "Castlevania - Circle of the Moon (USA)"
+title: "Castlevania - Circle of the Moon"
 categories:
  - approved
  - gba
@@ -12,4 +12,5 @@ date: May 9, 2023
 permalink: /games/castlevania-cotm/play/details
 publisher: Konami
 gid: castlevania-cotm
+edition: us
 ---

@@ -10,6 +10,7 @@ tags:
 - animals
 - nintendogs
 date: May 16, 2023
+edition: us
 permalink: /games/nintendogs-lab-and-friends/play/details
 publisher: Nintendo
 gid: nintendogs-lab-and-friends
