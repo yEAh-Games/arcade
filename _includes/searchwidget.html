@@ -60,27 +60,22 @@
           <option value="/sort/pub/{{publisher|slugify}}">{{publisher}}</option>{% endfor %}
         </select></div>
 
-        {% assign series = "" | split: "," %}
+        {% assign seriesname = "" | split: "," %}
         {% for post in site.posts %}
-          {% if post.series %}
-            {% unless series contains post.series %}
-              {% assign series = series | push: post.series %}
-            {% endunless %}
-          {% endif %}
+        {% if post.series %}
+        {% unless seriesname contains post.series %}
+        {% assign seriesname = seriesname | push: post.series %}
+        {% endunless %}
+        {% endif %}
         {% endfor %}
-        
-        <div>
-          <select class="js-select" onchange="window.location.href = this.value;">
-            <option value="/sort/series">Sort: Series</option>
-            {% for series_name in series %}
-              {% assign slugified_name = series_name | slugify %}
-              <option value="/sort/series/{{ slugified_name }}">{{ series_name }}</option>
-            {% endfor %}
-          </select>
-        </div>
-        
+  
+        <div><select class="js-select" onchange="window.location.href = this.value;">
+            <option value="/sort/pub">Sort: Series</option>
+            {% for series in seriesname %}
+            <option value="/sort/pub/{{seriesname|slugify}}">{{seriesname}}</option>{% endfor %}
+          </select></div>
 
-
+        
         {% assign edition = "" | split: "," %}
         {% for post in site.posts %}
         {% if post.edition %}
