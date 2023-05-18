@@ -13,7 +13,7 @@ tags:
 - forgein
 date: May 11, 2023
 permalink: /games/pokemon-sword-shield/pt/play/details
-publisher: (Not) Gamefreak
+publisher: PCL.G
 gid: pokemon-sword-shield
 edition: pt
 alt: true

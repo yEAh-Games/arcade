@@ -11,7 +11,7 @@ tags:
 - rpg
 date: May 11, 2023
 permalink: /games/pokemon-gaia/play/details
-publisher: (Not) Gamefreak
+publisher: Spherical Ice
 gid: pokemon-gaia
 edition: us
 ---
