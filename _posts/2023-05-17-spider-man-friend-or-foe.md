@@ -13,6 +13,6 @@ series:
 date: May 17, 2023
 permalink: /games/spider-man-friend-or-foe/play/details
 publisher: Activision
-gid: spider-man-riend-or-foe
+gid: spider-man-friend-or-foe
 edition: us
 ---
