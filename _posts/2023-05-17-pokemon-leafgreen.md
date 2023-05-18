@@ -11,7 +11,7 @@ tags:
 - pokemon
 date: May 17, 2023
 edition: us
-permalink: /games/pokemon-leaf-green/play/details
+permalink: /games/pokemon-leafgreen/play/details
 gid: pokemon-leaf-green
-redirect_from: /games/pokemon-leaf-green/us/play/details
+redirect_from: /games/pokemon-leafgreen/us/play/details
 ---
