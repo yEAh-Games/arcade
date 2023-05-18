@@ -42,12 +42,12 @@
           <option value="/sort/cat/{{category}}">{{category}}</option>{% endfor %}
 
         </select></div>
-
+        
         {% assign series = "" | split: "," %}
         {% for post in site.posts %}
           {% if post.series %}
             {% unless series contains post.series %}
-              {% assign series = series |slugify | push: post.series %}
+              {% assign series = series | push: post.series %}
             {% endunless %}
           {% endif %}
         {% endfor %}
@@ -61,7 +61,7 @@
           </select>
         </div>
         
-
+        
       {% assign publishers = "" | split: "," %}
       {% for post in site.posts %}
       {% if post.publisher %}
@@ -91,6 +91,7 @@
             {% for edition in edition %}
             <option value="/sort/ed/{{edition|slugify}}"><span class="fi fi-{{edition}}"></span> {{edition|replace:'us','USA'|replace:'jp','Japan'|replace:'xx','Global'|replace:'pt','Portugal'|replace:'ru','Russia'|replace:'eu','Europe'}}</option>{% endfor %}
           </select></div>
+
 
       <div class="uk-text-right" title="The number of items loaded based on your search query."
         style="position:absolute;right:3%;float:right!important;"><br><br><br><a href="#!"><span id="count"></span>
