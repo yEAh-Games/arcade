@@ -56,7 +56,8 @@
           <select class="js-select" onchange="window.location.href = this.value;">
             <option value="/sort/series">Sort: Series</option>
             {% for series_name in series %}
-              <option value="/sort/series/{{series_name | slugify}}">{{ series_name }}</option>
+              {% assign slugified_name = series_name | slugify %}
+              <option value="/sort/series/{{ slugified_name | join: '-' }}">{{ series_name }}</option>
             {% endfor %}
           </select>
         </div>
