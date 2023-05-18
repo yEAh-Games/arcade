@@ -13,6 +13,8 @@ date: May 16, 2023
 publisher: Activision
 gid: ultimate-spiderman
 alt: true
+alts:
+ - us.d
 edition: jp
 permalink: /games/ultimate-spiderman/jp/play/details
 ---
