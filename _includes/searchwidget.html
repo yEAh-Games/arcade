@@ -72,7 +72,7 @@
         <div><select class="js-select" onchange="window.location.href = this.value;">
             <option value="/sort/pub">Sort: Series</option>
             {% for series in seriesname %}
-            <option value="/sort/pub/{{seriesname|slugify}}">{{seriesname}}</option>{% endfor %}
+            <option value="/sort/pub/{{seriesname}}">{{seriesname}}</option>{% endfor %}
           </select></div>
 
         
