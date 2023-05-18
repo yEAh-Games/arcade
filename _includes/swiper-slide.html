@@ -6,7 +6,7 @@
             <div class="game-card__info"><a class="game-card__title" title="{{post.title}}"
                     href="{{post.permalink}}">{{post.title}}</a>
                 <div class="game-card__genre" title="{% if post.developer %}{{post.developer}}{% else %}{{post.publisher}}{% endif %}">
-                    <a style="text-decoration: none!important;color:inherit;" href="/sort/pub/{% if post.developer %}{{post.developer}}{% else %}{{post.publisher}}{% endif %}">{% if post.developer %}{{post.developer}}{% else %}{{post.publisher}}{% endif %}</a>
+                    <a style="text-decoration: none!important;color:inherit;" {% if post.developer %}href="/sort/dev/{{post.developer}}"{% else %}href="/sort/pub/{{post.publisher}}"{% endif %}>{% if post.developer %}{{post.developer}}{% else %}{{post.publisher}}{% endif %}</a>
                 </div>
                 <div class="game-card__genre" style="position:absolute;right:5%;top:70.8%" title="{% if post.edition == "xx" %}This game is the global version or doesn't have region-specific variants. {% else %} This game is the {{post.edition | upcase}} version of {% if post.ogtitle %}{{post.ogtitle}}{% else %}{{post.title}}{% endif %}.{% endif %}"><a
                         style="text-decoration: none!important;color:inherit;" href="/sort/ed/{{post.edition}}"><span class="fi fi-{{post.edition}}"></span></a></div>
