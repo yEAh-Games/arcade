@@ -12,6 +12,6 @@ tags:
 date: May 17, 2023
 edition: us
 permalink: /games/pokemon-leafgreen/play/details
-gid: pokemon-leaf-green
+gid: pokemon-leafgreen
 redirect_from: /games/pokemon-leafgreen/us/play/details
 ---
