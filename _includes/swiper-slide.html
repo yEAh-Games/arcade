@@ -2,16 +2,14 @@
     <div class="game-card" id="game" loading="lazy">
         <div class="game-card__box">
             <div class="game-card__media"><a href="{{post.permalink}}"><img loading="lazy"
-                        src="{% include cardimg.html %}" title="Featured image" /></a></div>
+                        src="{% include cardimg.html %}" title="Featured image: {{post.title}}" /></a></div>
             <div class="game-card__info"><a class="game-card__title" title="{{post.title}}"
                     href="{{post.permalink}}">{{post.title}}</a>
-                <div class="game-card__genre" title="{{post.publisher}}"><a
-                        style="text-decoration: none!important;color:inherit;"
-                        href="/sort/pub/{{post.publisher}}">{{post.publisher}}</a></div>
-                {% assign edition_generator = post.permalink | remove: '/us' | remove: '/eu' | remove: '/jp' %}
+                <div class="game-card__genre" title="{% if post.developer %}{{post.developer}}{% else %}{{post.publisher}}{% endif %}">
+                    <a style="text-decoration: none!important;color:inherit;" href="/sort/pub/{% if post.developer %}{{post.developer}}{% else %}{{post.publisher}}{% endif %}">{% if post.developer %}{{post.developer}}{% else %}{{post.publisher}}{% endif %}</a>
+                </div>
                 <div class="game-card__genre" style="position:absolute;right:5%;top:70.8%" title="{% if post.edition == "xx" %}This game is the global version or doesn't have region-specific variants. {% else %} This game is the {{post.edition | upcase}} version of {% if post.ogtitle %}{{post.ogtitle}}{% else %}{{post.title}}{% endif %}.{% endif %}"><a
-                        style="text-decoration: none!important;color:inherit;" href="/sort/ed/{{post.edition}}"><span
-                            class="fi fi-{{post.edition}}"></span></a></div>
+                        style="text-decoration: none!important;color:inherit;" href="/sort/ed/{{post.edition}}"><span class="fi fi-{{post.edition}}"></span></a></div>
                 <div class="game-card__bottom">
                     <div class="game-card__platform">{% include cats-post.html %}</div>
                     <div class="game-card__users"></div>
