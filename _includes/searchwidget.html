@@ -42,9 +42,22 @@
           <option value="/sort/cat/{{category}}">{{category}}</option>{% endfor %}
 
         </select></div>
-        
 
-        
+      {% assign seriesname = "" | split: "," %}
+      {% for post in site.posts %}
+      {% if post.series %}
+      {% unless seriesname contains post.series %}
+      {% assign seriesname = seriesname | push: post.series %}
+      {% endunless %}
+      {% endif %}
+      {% endfor %}
+
+      <div><select class="js-select" onchange="window.location.href = this.value;">
+          <option value="/sort/pub">Sort: Series</option>
+          {% for series in seriesname %}
+          <option value="/sort/pub/{{seriesname}}">{{seriesname|capatalize}}</option>{% endfor %}
+        </select></div>
+
       {% assign publishers = "" | split: "," %}
       {% for post in site.posts %}
       {% if post.publisher %}
@@ -60,36 +73,23 @@
           <option value="/sort/pub/{{publisher|slugify}}">{{publisher}}</option>{% endfor %}
         </select></div>
 
-        {% assign seriesname = "" | split: "," %}
-        {% for post in site.posts %}
-        {% if post.series %}
-        {% unless seriesname contains post.series %}
-        {% assign seriesname = seriesname | push: post.series %}
-        {% endunless %}
-        {% endif %}
-        {% endfor %}
-  
-        <div><select class="js-select" onchange="window.location.href = this.value;">
-            <option value="/sort/pub">Sort: Series</option>
-            {% for series in seriesname %}
-            <option value="/sort/pub/{{seriesname}}">{{seriesname}}</option>{% endfor %}
-          </select></div>
 
-        
-        {% assign edition = "" | split: "," %}
-        {% for post in site.posts %}
-        {% if post.edition %}
-        {% unless edition contains post.edition %}
-        {% assign edition = edition | push: post.edition %}
-        {% endunless %}
-        {% endif %}
-        {% endfor %}
-  
-        <div><select class="js-select" onchange="window.location.href = this.value;">
-            <option value="/sort/ed">Sort: Edition</option>
-            {% for edition in edition %}
-            <option value="/sort/ed/{{edition|slugify}}"><span class="fi fi-{{edition}}"></span> {{edition|replace:'us','USA'|replace:'jp','Japan'|replace:'xx','Global'|replace:'pt','Portugal'|replace:'ru','Russia'|replace:'eu','Europe'}}</option>{% endfor %}
-          </select></div>
+      {% assign edition = "" | split: "," %}
+      {% for post in site.posts %}
+      {% if post.edition %}
+      {% unless edition contains post.edition %}
+      {% assign edition = edition | push: post.edition %}
+      {% endunless %}
+      {% endif %}
+      {% endfor %}
+
+      <div><select class="js-select" onchange="window.location.href = this.value;">
+          <option value="/sort/ed">Sort: Edition</option>
+          {% for edition in edition %}
+          <option value="/sort/ed/{{edition|slugify}}"><span class="fi fi-{{edition}}"></span>
+            {{edition|replace:'us','USA'|replace:'jp','Japan'|replace:'xx','Global'|replace:'pt','Portugal'|replace:'ru','Russia'|replace:'eu','Europe'}}
+          </option>{% endfor %}
+        </select></div>
 
 
       <div class="uk-text-right" title="The number of items loaded based on your search query."
