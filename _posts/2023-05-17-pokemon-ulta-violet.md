@@ -11,7 +11,7 @@ tags:
 - pokemon
 - romhack
 date: May 17, 2023
-edition: us
+edition: xx
 permalink: /games/pokemon-ultra-violet/play/details
 gid: pokemon-ultra-violet
 redirect_from: /games/pokemon-ultra-violet/us/play/details

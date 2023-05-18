@@ -10,7 +10,7 @@ categories:
 tags:
 - pokemon
 date: May 17, 2023
-edition: us
+edition: xx
 permalink: /games/pokemon-jupiter/play/details
 gid: pokemon-jupiter
 redirect_from: /games/pokemon-jupiter/us/play/details
