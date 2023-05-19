@@ -13,7 +13,7 @@ series:
 - fifa
 date: May 18, 2023
 permalink: /games/2006-fifa-world-cup-ds/play/details
-publisher: EA Sports
+publisher: Electronic Arts
 gid: 2006-fifa-world-cup-ds
 edition: eu
 ---

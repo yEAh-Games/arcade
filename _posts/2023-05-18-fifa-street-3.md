@@ -13,7 +13,7 @@ series:
 - fifa
 date: May 18, 2023
 permalink: /games/fifa-street-3/play/details
-publisher: EA Sports
+publisher: Electronic Arts
 gid: fifa-street-3
 edition: eu
 ---
