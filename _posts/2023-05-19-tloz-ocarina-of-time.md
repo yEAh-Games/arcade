@@ -7,13 +7,14 @@ categories:
  - universal
  - safe
 tags:
+- legend of zelda
+- ocarina of time
 - zelda
-- OoT
 series:
 - zelda
 date: May 19, 2023
-permalink: /games/tloz-oot/play/details
+permalink: /games/tloz-ocarina-of-time/play/details
 publisher: Nintendo
-gid: tloz-oot
+gid: tloz-ocarina-of-time
 edition: us
 ---
