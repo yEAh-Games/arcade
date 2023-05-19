@@ -1,6 +1,6 @@
 ---
 layout: n64
-title: "Pokemon Stadium"
+title: "Pokémon Stadium"
 categories:
  - approved
  - n64
@@ -8,11 +8,12 @@ categories:
  - safe
 tags:
 - pokemon
+- pokemon stadium
 series:
 - pokemon
 date: May 19, 2023
 permalink: /games/pokemon-stadium/play/details
-publisher: Nintendo
+publisher: The Pokémon Company
 gid: pokemon-stadium
 edition: us
 ---

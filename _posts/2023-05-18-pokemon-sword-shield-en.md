@@ -9,6 +9,8 @@ categories:
 tags:
 - pokemon
 - rpg
+series: 
+- pokemon
 date: May 11, 2023
 permalink: /games/pokemon-sword-shield/play/details
 publisher: PCL.G

@@ -1,6 +1,6 @@
 ---
 layout: n64
-title: "Pokemon Stadium 2"
+title: "Pokémon Stadium 2"
 categories:
  - approved
  - n64
@@ -8,6 +8,7 @@ categories:
  - safe
 tags:
 - pokemon
+- pokemon stadium
 series:
 - pokemon
 date: May 19, 2023
