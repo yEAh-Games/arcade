@@ -1,9 +1,9 @@
 ---
-layout: nds
-title: "Grand Theft Auto: Chinatown Wars"
+layout: gba
+title: "Grand Theft Auto Advance"
 categories:
  - approved
- - nds
+ - gba
  - universal
  - safe
 tags:
@@ -13,8 +13,8 @@ tags:
 series:
 - gta
 date: May 18, 2023
-permalink: /games/gta-chinatown-wars/play/details
+permalink: /games/gta-advance/play/details
 publisher: Rockstar Games
-gid: gta-chinatown-wars
+gid: gta-advance
 edition: us
 ---
