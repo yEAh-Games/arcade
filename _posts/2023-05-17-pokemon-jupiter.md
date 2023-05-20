@@ -1,6 +1,6 @@
 ---
 layout: gba
-title: "Pokémon Jupiter Version"
+title: "Pokémon Jupiter"
 publisher: Unknown
 categories:
  - approved

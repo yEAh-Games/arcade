@@ -1,6 +1,6 @@
 ---
 layout: gba
-title: "Pokémon Ulta Violet Version"
+title: "Pokémon Ulta Violet"
 publisher: LocksmithArmy
 categories:
  - approved

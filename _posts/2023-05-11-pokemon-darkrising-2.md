@@ -1,6 +1,6 @@
 ---
 layout: gba
-title: "Pokémon Dark Rising 2 Version"
+title: "Pokémon Dark Rising 2"
 categories:
  - approved
  - gba

@@ -1,6 +1,6 @@
 ---
 layout: gba
-title: "Pokémon Emerald Kaizo Version"
+title: "Pokémon Emerald Kaizo"
 categories:
  - approved
  - gba

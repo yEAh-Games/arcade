@@ -1,6 +1,6 @@
 ---
 layout: gba
-title: "Pokémon Gaia Version"
+title: "Pokémon Gaia"
 categories:
  - approved
  - gba
