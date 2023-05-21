@@ -1,1 +1,3 @@
-{% if page.host %}host{{page.host}}.{% endif %}
+{% assign hostloader = "host" | append: page.host %}
+
+{% if page.host %}{{hostloader | remove: 'host1.'}}.{% endif %}
