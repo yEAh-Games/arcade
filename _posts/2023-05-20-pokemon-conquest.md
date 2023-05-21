@@ -1,6 +1,6 @@
 ---
 layout: nds
-host: 2
+host: "2"
 title: "Pokémon Conquest"
 categories:
  - approved
