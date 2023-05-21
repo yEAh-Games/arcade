@@ -1,6 +1,6 @@
 {% if post.categories contains 'flash' or post.categories contains 'as3g' or post.categories contains 'as3b' %}https://flash.g.arcade.yeahgames.net/published/{{post.gid}}{% if post.alt %}/{{post.edition}}{% endif %}/files/image.png{% endif %}
                                    
-{% if post.categories contains 'nds' %}{% if page.host %}host{{page.host}}.{% endif %}https://nds.g.arcade.yeahgames.net/published/{{post.gid}}{% if post.alt %}/{{post.edition}}{% endif %}/image.png{% endif %}
+{% if post.categories contains 'nds' %}https://{% if post.host %}host{{post.host}}.{% endif %}nds.g.arcade.yeahgames.net/published/{{post.gid}}{% if post.alt %}/{{post.edition}}{% endif %}/image.png{% endif %}
 
 {% if post.categories contains 'mame' %}https://mame.g.arcade.yeahgames.net/published/{{post.gid}}{% if post.alt %}/{{post.edition}}{% endif %}/image.png{% endif %}
 
