@@ -7,11 +7,12 @@ categories:
  - universal
  - safe
 tags:
-- Board Game
+- board game
 - mario
+- mario party
 series:
-- Mario Party
-date: May 19, 2023
+- mario
+date: May 23, 2023
 permalink: /games/mario-party-2/play/details
 publisher: Nintendo
 gid: mario-party-2

@@ -7,14 +7,12 @@ categories:
  - universal
  - safe
 tags:
-- pro
-- amogus
-- aidan is pro
+- rpg
+- fantasy
 series:
-- aidyn
 date: May 19, 2023
-permalink: /games/aidan-chronicles/play/details
+permalink: /games/aidyn-chronicles/play/details
 publisher: THQ
-gid: aidan-chronicles
+gid: aidyn-chronicles
 edition: us
 ---
