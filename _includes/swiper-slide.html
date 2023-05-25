@@ -3,18 +3,30 @@
         <div class="game-card__box">
             <div class="game-card__media"><a href="{{post.permalink}}"><img loading="lazy"
                         src="{% include cardimg.html %}" title="Featured image: {{post.title}}" /></a></div>
-            <div class="game-card__info"><a class="game-card__title" title="{{post.title}}"
+            <div class="game-card__info"><a class="game-card__title"
+                    title="{% if page.transtitle %}{{page.transtitle}}{% else %}{{page.title}}{% endif %}"
                     href="{{post.permalink}}">{{post.title}}</a>
-                <div class="game-card__genre" title="{% if post.developer %}{{post.developer}}{% else %}{{post.publisher}}{% endif %}">
-                    <a style="text-decoration: none!important;color:inherit;" {% if post.developer %}href="/sort/dev/{{post.developer | slugify}}"{% else %}href="/sort/pub/{{post.publisher | slugify}}"{% endif %}>{% if post.developer %}{{post.developer}}{% else %}{{post.publisher}}{% endif %}</a>
+                <div class="game-card__genre"
+                    title="{% if post.developer %}{{post.developer}}{% else %}{{post.publisher}}{% endif %}">
+                    <a style="text-decoration: none!important;color:inherit;" {% if post.developer
+                        %}href="/sort/dev/{{post.developer | slugify}}" {% else
+                        %}href="/sort/pub/{{post.publisher | slugify}}" {% endif %}>{% if post.developer
+                        %}{{post.developer}}{% else %}{{post.publisher}}{% endif %}</a>
                 </div>
-                <div class="game-card__genre" style="position:absolute;right:5%;top:70.8%" title="{% if post.edition == "xx" %}This game is the global version or doesn't have region-specific variants. {% else %} This game is the {{post.edition | upcase}} version of {% if post.ogtitle %}{{post.ogtitle}}{% else %}{{post.title}}{% endif %}.{% endif %}"><a
-                        style="text-decoration: none!important;color:inherit;" href="/sort/ed/{{post.edition}}"><span class="fi fi-{{post.edition}}"></span></a></div>
+                <div class="game-card__genre" style="position:absolute;right:5%;top:70.8%"
+                    title="{% if post.edition == " xx" %}This game is the global version or doesn't have region-specific
+                    variants. {% else %} This game is the {{post.edition | upcase}} version of {% if post.ogtitle
+                    %}{{post.ogtitle}}{% else %}{{post.title}}{% endif %}.{% endif %}"><a
+                        style="text-decoration: none!important;color:inherit;" href="/sort/ed/{{post.edition}}"><span
+                            class="fi fi-{{post.edition}}"></span></a></div>
                 <div class="game-card__bottom">
                     <div class="game-card__platform">{% include cats-post.html %}</div>
                     <div class="game-card__users"></div>
                     <div class="game-card__rating-and-price">
-                        <div class="game-card__price" style="float:right!important"><a href="{{post.permalink}}"><button style="width:30px!important;height:35px!important;background-color:#5e9c00" title="Play it now for free!" class="uk-button uk-button-primary uk-width-2-2"><i class="fa-solid fa-circle-play"></i></button></a></div>
+                        <div class="game-card__price" style="float:right!important"><a href="{{post.permalink}}"><button
+                                    style="width:30px!important;height:35px!important;background-color:#5e9c00"
+                                    title="Play it now for free!" class="uk-button uk-button-primary uk-width-2-2"><i
+                                        class="fa-solid fa-circle-play"></i></button></a></div>
                     </div>
                 </div>
             </div>
