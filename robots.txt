@@ -1,2 +1,4 @@
 Sitemap: https://player.yeahgames.net/sitemap.xml
+
+User-agent: *
 Disallow: /theme/*
