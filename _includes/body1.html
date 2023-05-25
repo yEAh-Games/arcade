@@ -1,100 +1,211 @@
 <body class="page-home" onload="DarkTheme()">
 
-  <script type="text/javascript">
-      function DarkTheme() {
-          document.getElementsByTagName('body')[0].classList.toggle("dark-theme");
-      ;
-  }
-  </script>
+    <style>
+        @media (max-width: 767px) {
+            .mobile-hidden {
+                display: none !important;
+            }
+        }
+    </style>
+    
+    <script type="text/javascript">
+        function DarkTheme() {
+            document.getElementsByTagName('body')[0].classList.toggle("dark-theme");
+            ;
+        }
+    </script>
 
 
-  <!-- Loader-->
-  <div id="page-preloader">
-      <div class="preloader-1">
-          <div class="loader-text">Loading</div>
-          <span class="line line-1"></span>
-          <span class="line line-2"></span>
-          <span class="line line-3"></span>
-          <span class="line line-4"></span>
-          <span class="line line-5"></span>
-          <span class="line line-6"></span>
-          <span class="line line-7"></span>
-          <span class="line line-8"></span>
-          <span class="line line-9"></span>
-      </div>
+    <!-- Loader-->
+    <div id="page-preloader">
+        <div class="preloader-1">
+            <div class="loader-text">Loading</div>
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+            <span class="line line-4"></span>
+            <span class="line line-5"></span>
+            <span class="line line-6"></span>
+            <span class="line line-7"></span>
+            <span class="line line-8"></span>
+            <span class="line line-9"></span>
+        </div>
 
-  </div>
-  <!-- Loader end-->
+    </div>
+    <!-- Loader end-->
 
-  <div class="page-wrapper">
-      <header class="page-header">
-          <div class="page-header__inner">
-              <div class="page-header__sidebar">
-                  <div class="page-header__menu-btn"><button class="menu-btn ico_menu is-active"></button></div>
-                  <div ><a href="https://www.yeahgames.net"><img width="150px" src="//cdn.yeahgames.net/img/branding/logos/text/red.png" title="yEAh" alt="logo"></a>&#160;&#160;<a href="https://player.yeahgames.net"><font size="+1"color="#5e9c00"><i title="Games Player" class="fa-solid fa-circle-play"></i></a></font><span class="page-header__logo_text"></span></div>
-              </div>
-              <div class="page-header__content">
-                  <div class="page-header__search">
-                      <div class="search">
+    <div class="page-wrapper">
+        <header class="page-header">
+            <div class="page-header__inner">
+                <div class="page-header__sidebar">
+                    <div class="page-header__menu-btn"><button class="menu-btn ico_menu is-active"></button></div>
+                    <div><a href="https://www.yeahgames.net"><img width="150px"
+                                src="//cdn.yeahgames.net/img/branding/logos/text/red.png" title="yEAh"
+                                alt="logo"></a>&#160;&#160;<a href="https://player.yeahgames.net">
+                            <font size="+1" color="#5e9c00"><i title="Games Player"
+                                    class="fa-solid fa-circle-play mobile-hidden"></i>
+                        </a></font><span class="page-header__logo_text"></span></div>
+                </div>
+                <div class="page-header__content">
+                    <div class="page-header__search">
+                        <div class="search">
 
-                      </div>
-                  </div>
-                  <div class="page-header__action">
-                    <a title="Visit the yEAh Network homepage." a href="https://www.yeahgames.net"><font color="#ff4747"><i class="fa-solid fa-server"></i></font></a>&nbsp;
-
-
-                    <a title="Visit the Games homepage & directory." a href="https://games.yeahgames.net"><font color="#5e9c00"><i class="fa-solid fa-circle-play"></i></font></a>&nbsp;
-
-                    <a title="Create your own modern HTML5 in our interactive visual editor. (UNRELEASED: DEV)" href="https://create.games.yeahgames.net"><font color="#ffdf00"><i class="fa-solid fa-palette"></i></font></a>&nbsp;
-                    <a title="A library collection for archiving material relating to Games on yEAh Games; this includes, rules, tactics, history, etc." href="https://archive.games.yeahgames.net"><font color="#9eccdf"><i class="fa-solid fa-archive"></i></font></a>&nbsp;
-                                   
-                    <a href="#modal-report" data-uk-toggle><font color="#fff"><i class="fa-solid fa-circle-user"></i></font></a>
-                  </div>
-              </div>
-          </div>
-      </header>
-      <div class="page-content">
-          <aside class="sidebar is-show" id="sidebar">
-              <div class="sidebar-box">
-                  <ul class="uk-nav">
-                      <li title="Home (recommended games)" class="uk-active"><a href="https://arcade.yeahgames.net"><i class="fa fa-home"></i>&nbsp;<span>Home</span></a></li>
-                      <li title="Browse all published games (ordered by most recent)."><a href="/sort/all"><font color="#e34c26"><i class="fa-solid fa-gamepad"></i></font>&nbsp;<span>Browse</span></a></li>
-                      <li class="uk-nav-header">TYPES</li>
-
-                      <li title="Games are published & playable using HTML5, the safe & modern web standard for interactive elements."><a href="/sort/type/html5"><font color="#e34c26"><i class="fa-brands fa-html5"></i></font>&nbsp;<span>HTML5</span></a></li>
-                      <li title="Games are published using the now-deprecated Adobe Flash (SWF & FLA files), but are able to be run using a safe client-side emulator."><a href="/sort/type/flash"><font color="#FDD023"><i class="fa-solid fa-bolt"></i></font>&nbsp;<span>Flash<sup>&#160;Emulated</sup></span></a></li>
-                      <li title="Nintendo DS games that are able to emulated using our in-browser JavaScript emulator."><a href="/sort/type/nds"><font color="#a5d749"><i class="fa-solid fa-laptop"></i></font>&nbsp;<span>Nintendo DS<sup>&#160;Emulated</sup></span></a></li>
-                      <li title="Gameboy Advanced games that are able to be emulated using our in-browser JavaScript emulator. Click 'help' to learn the controls."><a href="/sort/type/gba"><font color="#9a2257"><i class="fa-solid fa-chess-king"></i></font>&nbsp;<span>GB Advanced<sup>&#160;Emulated</sup></span></a></li>
-                      <li title="Arcade games (usually MAME) that are playable through a variety of browser emulators. Hit 'tab' in the emulator to see the controls."><a href="/sort/type/arcade"><font color="#fa54e4"><i class="fa-solid fa-rocket"></i></font>&nbsp;<span>Arcade<sup>&#160;Emulated</sup></span></a></li>
+                        </div>
+                    </div>
+                    <div class="page-header__action">
+                        <a title="Visit the yEAh Network homepage." a href="https://www.yeahgames.net">
+                            <font color="#ff4747"><i class="fa-solid fa-server"></i></font>
+                        </a>&nbsp;
 
 
+                        <a title="Visit the Games homepage & directory." a href="https://games.yeahgames.net">
+                            <font color="#5e9c00"><i class="fa-solid fa-circle-play"></i></font>
+                        </a>&nbsp;
 
-                    
-                      <li class="uk-nav-header">CATEGORIES</li>
-                      <li title="Games developed by yEAh Games."><a href="/sort/cat/yeah"><font color="#ff4747"><i class="fa-solid fa-circle-check"></i></font>&nbsp;<span>yEAh games</span></a></li>
-                      <li title="Games were thoroughly reviewed, repaired and polished by yEAh staff before being uploaded."><a href="/sort/cat/approved"><font color="#039487"><i class="fa-solid fa-circle-check"></i></font>&nbsp;<span>Approved games</span></a></li>
-                      <li title="Games created by yEAh members, using our Game Creator tool. They have not necessairly been reviewed."><a href="/sort/cat/ugc"><font color="#f8a2ab"><i class="fa-solid fa-user"></i></font>&nbsp;<span>User-created games</span></a></li>
-                      <li title="Games playable on all browsers and devices (tested down to the long-deprecated IE7)."><a href="/sort/cat/universal"><font color="#357EC7"><i class="fa-solid fa-globe"></i></font>&nbsp;<span>Universal games</span></a></li>
-                      <li title="Games safe for all ages."><a href="/sort/cat/safe"><i class="fa-solid fa-shield"></i>&nbsp;<span>Safe games</span></a></li>
+                        <a title="Create your own modern HTML5 in our interactive visual editor. (UNRELEASED: DEV)"
+                            href="https://create.games.yeahgames.net">
+                            <font color="#ffdf00"><i class="fa-solid fa-palette"></i></font>
+                        </a>&nbsp;
+                        <a title="A library collection for archiving material relating to Games on yEAh Games; this includes, rules, tactics, history, etc."
+                            href="https://archive.games.yeahgames.net">
+                            <font color="#9eccdf"><i class="fa-solid fa-archive"></i></font>
+                        </a>&nbsp;
 
-                      <li class="uk-nav-header">TOOLS</li>
-                      <li title="Search the our extensive game catalogue."><a href="/tools/search"><font color="#9eccdf"><i class="fa-solid fa-magnifying-glass"></i></font>&nbsp;<span>Search games</span></a></li>
-                      <li title="Show a fake Google Doc overlay."><a onclick="showOverlay()"><font color="#4285F4"><i class="fa-solid fa-file-invoice"></i></font>&nbsp;<span>Doc overlay</span></a></li>
-                      <li title="Shortcut to Google Classroom."><a href="https://classroom.google.com" targe="_blank"><font color="#20a464"><i class="fa-solid fa-chalkboard"></i></font>&nbsp;<span>Google Classroom</span></a></li>
-                      <li title="Use the yEAh FlashEM (Beta) emulator tool to emulate Adobe Flash (SWF, FLA) files that your browser doesn't support anymore. Paste in a link, and we'll do the rest. This is nowhere near perfect."><a href="/tools/emulators/flash"><font color="#ff4747"><i class="fa-solid fa-flask"></i></font>&nbsp;<span>Flash emulator&#160;<sup>Beta</sup></span></a></li>
+                        <a href="#modal-report" data-uk-toggle>
+                            <font color="#fff"><i class="fa-solid fa-circle-user"></i></font>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="page-content">
+            <aside class="sidebar is-show" id="sidebar">
+                <div class="sidebar-box">
+                    <ul class="uk-nav">
+                        <li title="Home (recommended games)" class="uk-active"><a href="https://arcade.yeahgames.net"><i
+                                    class="fa fa-home"></i>&nbsp;<span>Home</span></a></li>
+                        <li title="Browse all published games (ordered by most recent)."><a href="/sort/all">
+                                <font color="#e34c26"><i class="fa-solid fa-gamepad"></i></font>
+                                &nbsp;<span>Browse</span>
+                            </a></li>
+                        <li class="uk-nav-header">TYPES</li>
 
-                      <li title="Use the yEAh NDS emulator tool to emulate Nintendo DS/DSI (NDS) files in your browser. Upload a file or choose one from our collection and we'll do the rest."><a href="/tools/emulators/nds"><font color="#a5d749"><i class="fa-solid fa-laptop"></i></font>&nbsp;<span>DS emulator&#160;<sup>Beta</sup></span></a></li>
+                        <li
+                            title="Games are published & playable using HTML5, the safe & modern web standard for interactive elements.">
+                            <a href="/sort/type/html5">
+                                <font color="#e34c26"><i class="fa-brands fa-html5"></i></font>&nbsp;<span>HTML5</span>
+                            </a></li>
+                        <li
+                            title="Games are published using the now-deprecated Adobe Flash (SWF & FLA files), but are able to be run using a safe client-side emulator.">
+                            <a href="/sort/type/flash">
+                                <font color="#FDD023"><i class="fa-solid fa-bolt"></i></font>
+                                &nbsp;<span>Flash<sup>&#160;Emulated</sup></span>
+                            </a></li>
+                        <li
+                            title="Nintendo DS games that are able to emulated using our in-browser JavaScript emulator.">
+                            <a href="/sort/type/nds">
+                                <font color="#a5d749"><i class="fa-solid fa-laptop"></i></font>&nbsp;<span>Nintendo
+                                    DS<sup>&#160;Emulated</sup></span>
+                            </a></li>
+                        <li
+                            title="Gameboy Advanced games that are able to be emulated using our in-browser JavaScript emulator. Click 'help' to learn the controls.">
+                            <a href="/sort/type/gba">
+                                <font color="#9a2257"><i class="fa-solid fa-chess-king"></i></font>&nbsp;<span>GB
+                                    Advanced<sup>&#160;Emulated</sup></span>
+                            </a></li>
+                        <li
+                            title="Arcade games (usually MAME) that are playable through a variety of browser emulators. Hit 'tab' in the emulator to see the controls.">
+                            <a href="/sort/type/arcade">
+                                <font color="#fa54e4"><i class="fa-solid fa-rocket"></i></font>
+                                &nbsp;<span>Arcade<sup>&#160;Emulated</sup></span>
+                            </a></li>
 
-                      <li title="Use the yEAh GbEM (Alpha) emulator tool to emulate GameBoy files in your browser. Upload a file or choose one from our collection and we'll do the rest. This has only been tested on some notable games."><a href="/tools/emulators/gb"><font color="#07d1a0"><i class="fa-solid fa-chess-knight"></i></font>&nbsp;<span>Gameboy emulator&#160;<sup>Alpha</sup></span></a></li>
-                    
-
-                      <li title="Use the yEAh GbaEM emulator tool to emulate GameBoy Advanced files in your browser. Upload a file or choose one from our collection and we'll do the rest."><a href="/tools/emulators/gba"><font color="#9a2257"><i class="fa-solid fa-chess-king"></i></font>&nbsp;<span>GBAdvanced emulator&#160;<sup>Beta</sup></span></a></li>
-
-                      <li title="Download our Adobe Flash emulator (a modified, modern flash projector, designed to be secure) to run games not supported by the JavaScript emulator (notably games made in ActionScript3). It should automatically plug-in to your browser, and, if not, we have alternative Flash browsers."><a href="/tools/emulators/flash/download"><font color="#880808"><i class="fa-solid fa-download"></i></font>&nbsp;<span>Download Flash</span></a></li>
 
 
-                      <li title="Suggest or upload games that you've found. We accept HTML, HTMLCanvas, JavaScript, SWF, FLA, WEBM, GB, GBA, NES, NDS, MAME, and more (or just give us a title or link, and we'll do the rest.)"><a href="/tools/suggest"><font color="#308446"><i class="fa-solid fa-upload"></i></font>&nbsp;<span>Suggest a game</span></a></li>
 
-                  </ul>
-              </div>
-          </aside>
+                        <li class="uk-nav-header">CATEGORIES</li>
+                        <li title="Games developed by yEAh Games."><a href="/sort/cat/yeah">
+                                <font color="#ff4747"><i class="fa-solid fa-circle-check"></i></font>&nbsp;<span>yEAh
+                                    games</span>
+                            </a></li>
+                        <li
+                            title="Games were thoroughly reviewed, repaired and polished by yEAh staff before being uploaded.">
+                            <a href="/sort/cat/approved">
+                                <font color="#039487"><i class="fa-solid fa-circle-check"></i></font>
+                                &nbsp;<span>Approved games</span>
+                            </a></li>
+                        <li
+                            title="Games created by yEAh members, using our Game Creator tool. They have not necessairly been reviewed.">
+                            <a href="/sort/cat/ugc">
+                                <font color="#f8a2ab"><i class="fa-solid fa-user"></i></font>&nbsp;<span>User-created
+                                    games</span>
+                            </a></li>
+                        <li
+                            title="Games playable on all browsers and devices (tested down to the long-deprecated IE7).">
+                            <a href="/sort/cat/universal">
+                                <font color="#357EC7"><i class="fa-solid fa-globe"></i></font>&nbsp;<span>Universal
+                                    games</span>
+                            </a></li>
+                        <li title="Games safe for all ages."><a href="/sort/cat/safe"><i
+                                    class="fa-solid fa-shield"></i>&nbsp;<span>Safe games</span></a></li>
+
+                        <li class="uk-nav-header">TOOLS</li>
+                        <li title="Search the our extensive game catalogue."><a href="/tools/search">
+                                <font color="#9eccdf"><i class="fa-solid fa-magnifying-glass"></i></font>
+                                &nbsp;<span>Search games</span>
+                            </a></li>
+                        <li title="Show a fake Google Doc overlay."><a onclick="showOverlay()">
+                                <font color="#4285F4"><i class="fa-solid fa-file-invoice"></i></font>&nbsp;<span>Doc
+                                    overlay</span>
+                            </a></li>
+                        <li title="Shortcut to Google Classroom."><a href="https://classroom.google.com" targe="_blank">
+                                <font color="#20a464"><i class="fa-solid fa-chalkboard"></i></font>&nbsp;<span>Google
+                                    Classroom</span>
+                            </a></li>
+                        <li
+                            title="Use the yEAh FlashEM (Beta) emulator tool to emulate Adobe Flash (SWF, FLA) files that your browser doesn't support anymore. Paste in a link, and we'll do the rest. This is nowhere near perfect.">
+                            <a href="/tools/emulators/flash">
+                                <font color="#ff4747"><i class="fa-solid fa-flask"></i></font>&nbsp;<span>Flash
+                                    emulator&#160;<sup>Beta</sup></span>
+                            </a></li>
+
+                        <li
+                            title="Use the yEAh NDS emulator tool to emulate Nintendo DS/DSI (NDS) files in your browser. Upload a file or choose one from our collection and we'll do the rest.">
+                            <a href="/tools/emulators/nds">
+                                <font color="#a5d749"><i class="fa-solid fa-laptop"></i></font>&nbsp;<span>DS
+                                    emulator&#160;<sup>Beta</sup></span>
+                            </a></li>
+
+                        <li
+                            title="Use the yEAh GbEM (Alpha) emulator tool to emulate GameBoy files in your browser. Upload a file or choose one from our collection and we'll do the rest. This has only been tested on some notable games.">
+                            <a href="/tools/emulators/gb">
+                                <font color="#07d1a0"><i class="fa-solid fa-chess-knight"></i></font>&nbsp;<span>Gameboy
+                                    emulator&#160;<sup>Alpha</sup></span>
+                            </a></li>
+
+
+                        <li
+                            title="Use the yEAh GbaEM emulator tool to emulate GameBoy Advanced files in your browser. Upload a file or choose one from our collection and we'll do the rest.">
+                            <a href="/tools/emulators/gba">
+                                <font color="#9a2257"><i class="fa-solid fa-chess-king"></i></font>
+                                &nbsp;<span>GBAdvanced emulator&#160;<sup>Beta</sup></span>
+                            </a></li>
+
+                        <li
+                            title="Download our Adobe Flash emulator (a modified, modern flash projector, designed to be secure) to run games not supported by the JavaScript emulator (notably games made in ActionScript3). It should automatically plug-in to your browser, and, if not, we have alternative Flash browsers.">
+                            <a href="/tools/emulators/flash/download">
+                                <font color="#880808"><i class="fa-solid fa-download"></i></font>&nbsp;<span>Download
+                                    Flash</span>
+                            </a></li>
+
+
+                        <li
+                            title="Suggest or upload games that you've found. We accept HTML, HTMLCanvas, JavaScript, SWF, FLA, WEBM, GB, GBA, NES, NDS, MAME, and more (or just give us a title or link, and we'll do the rest.)">
+                            <a href="/tools/suggest">
+                                <font color="#308446"><i class="fa-solid fa-upload"></i></font>&nbsp;<span>Suggest a
+                                    game</span>
+                            </a></li>
+
+                    </ul>
+                </div>
+            </aside>
