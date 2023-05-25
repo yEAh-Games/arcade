@@ -1,6 +1,6 @@
 ---
 layout: n64
-title: "Super Smash Brothers (N64)"
+title: "Super Smash Bros (N64)"
 categories:
  - approved
  - n64
@@ -8,11 +8,14 @@ categories:
  - safe
 tags:
 - smash bros
+- super smash bros
 series:
-- smash
+- mario
 date: May 24, 2023
-permalink: /games/smash-64/play/details
+permalink: /games/super-smash-bros-n64/play/details
 publisher: Nintendo
-gid: smash-64
+gid: super-smash-bros-n64
 edition: us
+alts:
+ - jp
 ---
