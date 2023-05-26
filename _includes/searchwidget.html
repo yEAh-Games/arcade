@@ -18,7 +18,7 @@
       {% for post in site.posts %}
       {% for category in post.categories %}
       {% unless categories contains category %}
-      {% assign categories = categories |remove:'gba'|remove:'nds'|remove:'n64'|remove:'gb'|remove:'gbc'|remove:'snes'|remove:'mame'|remove:'arcade'|remove:'nes'|remove:'flash'| push: category %}
+      {% assign categories = categories | push: category %}
       {% endunless %}
       {% endfor %}
       {% endfor %}
