@@ -46,19 +46,11 @@
 
         </select></div>
 
-      {% assign seriesname = "" | split: "," %}
-      {% for post in site.posts %}
-      {% if post.series %}
-      {% unless seriesname contains post.series %}
-      {% assign seriesname = seriesname | push: post.series %}
-      {% endunless %}
-      {% endif %}
-      {% endfor %}
-
       <div><select class="js-select" onchange="window.location.href = this.value;">
-          <option value="/sort/pub">Sort: Series</option>
-          {% for series in seriesname %}
-          <option style="text-transform:capitalize!important;" value="/sort/series/{{seriesname}}">{{seriesname}}</option>{% endfor %}
+          <option value="/sort/series">Sort: Series</option>
+
+          <option style="text-transform:capitalize!important;" value="/sort/series">Series sorts are temporarily
+            disabled.</option>
         </select></div>
 
       {% assign publishers = "" | split: "," %}
