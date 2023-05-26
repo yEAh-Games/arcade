@@ -41,8 +41,8 @@
         </select></div>
       <div><select class="js-select" onchange="window.location.href = this.value;">
           <option value="/sort/cat">Sort: Category</option>
-          {% for category in categories %}
-          <option value="/sort/cat/{{category}}">{{category|remove:'gba'|remove:'nds'|remove:'n64'|remove:'gb'|remove:'gbc'|remove:'snes'|remove:'mame'|remove:'arcade'|remove:'nes'|remove:'flash'| capitalize}}</option>{% endfor %}
+          {% for category in categories |remove:'gba'|remove:'nds'|remove:'n64'|remove:'gb'|remove:'gbc'|remove:'snes'|remove:'mame'|remove:'arcade'|remove:'nes'|remove:'flash'%}
+          <option value="/sort/cat/{{category|remove:'gba'|remove:'nds'|remove:'n64'|remove:'gb'|remove:'gbc'|remove:'snes'|remove:'mame'|remove:'arcade'|remove:'nes'|remove:'flash'| capitalize|slugify}}">{{category|remove:'gba'|remove:'nds'|remove:'n64'|remove:'gb'|remove:'gbc'|remove:'snes'|remove:'mame'|remove:'arcade'|remove:'nes'|remove:'flash'| capitalize}}</option>{% endfor %}
 
         </select></div>
 
