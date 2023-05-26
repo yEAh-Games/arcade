@@ -1,8 +1,8 @@
 ---
 layout: n64
-title: "ニンテンドウオールスター！大乱闘スマッシュブラザーズ オリジナルサウンドトラック"
+title: "ニンテンドウオールスター！大乱闘スマッシュブラザーズ"
 ogtitle: "Super Smash Bros (N64)"
-transtitle: "Nintendo All-Star! Dairantou Smash Brothers OST"
+transtitle: "Nintendo All-Star! Super Smash Brothers"
 categories:
  - approved
  - n64
