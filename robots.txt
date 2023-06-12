@@ -3,3 +3,6 @@ Sitemap: https://player.yeahgames.net/sitemap.xml
 User-agent: *
 Disallow: /theme/*
 Disallow: /sort/tag/*
+Disallow: /cdn-cgi/
+Disallow: /cdn-cgi
+Disallow: /cdn-cgi/*
