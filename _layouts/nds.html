@@ -12,7 +12,7 @@
         <div class="swiper">
           <div class="swiper-wrapper" style="max-height:565px!important">
             <iframe id="game-iframe" tabindex="-1" autofocus
-              src="https://{% include location.html %}nds.g.arcade.yeahgames.net/published/{{page.permalink|remove:'/games/'|remove:'/play/details'}}/run"
+              src="https://{% if page.host %}{{page.host}}{% else %}1{% endif %}--nds--arcade.694207.xyz/published/{{page.permalink|remove:'/games/'|remove:'/play/details'}}/run"
               width="100%" height="586px"> </iframe>
           </div>
         </div>
@@ -25,7 +25,7 @@
       {% include gamepage-title.html %}
 
       <div class="game-profile-card__media"><img style="border-color:white;border-width:10px"
-          src="https://{% include location.html %}nds.g.arcade.yeahgames.net/published/{{page.permalink|remove:'/games/'|remove:'/play/details'}}/image.png"
+          src="https://{% if page.host %}{{page.host}}{% else %}1{% endif %}--nds--arcade.694207.xyz/published/{{page.permalink|remove:'/games/'|remove:'/play/details'}}/image.png"
           alt="game-profile-card"></div>
       <hr />
       <div class="game-profile-card__intro"><span>{% if page.description %}
@@ -58,7 +58,7 @@
     </div>
     <div class="game-profile-price">
       <a
-        href="https://{% include location.html %}nds.g.arcade.yeahgames.net/published/{{page.permalink|remove:'/games/'|remove:'/play/details'}}/full"><button
+        href="https://{% if page.host %}{{page.host}}{% else %}1{% endif %}--nds--arcade.694207.xyz/published/{{page.permalink|remove:'/games/'|remove:'/play/details'}}/full"><button
           class="uk-button uk-button-danger uk-width-1-1" style="color:#ffff" type="button"><i
             class="fa-solid fa-up-right-and-down-left-from-center"></i>&#160;&#160;&#160;<span
             style="font-weight:bolder">FULL SCREEN</span></button></a>
