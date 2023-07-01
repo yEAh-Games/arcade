@@ -82,9 +82,9 @@
             <aside class="sidebar is-show" id="sidebar">
                 <div class="sidebar-box">
                     <ul class="uk-nav">
-                        <li title="Home (recommended games)" class="uk-active"><a href="https://arcade.yeahgames.net"><i
+                        <li title="Home (recommended games)" {% if page.url == "/" or page.url == "/index.html" %} class="uk-active"{% endif %}><a href="https://arcade.yeahgames.net"><i style="color:#ff4747"
                                     class="fa fa-home"></i>&nbsp;<span>Home</span></a></li>
-                        <li title="Browse all published games (ordered by most recent)."><a href="/sort/all">
+                        <li {% if page.url == "/sort/all/" or page.url == "/sort/all" or page.url == "/sort/all/index.html" %} class="uk-active"{% endif %} title="Browse all published games (ordered by most recent)."><a href="/sort/all">
                                 <font color="#e34c26"><i class="fa-solid fa-gamepad"></i></font>
                                 &nbsp;<span>Browse</span>
                             </a></li>
