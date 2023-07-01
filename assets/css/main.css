@@ -783,6 +783,7 @@ body.no-scroll {
     padding: 45px;
     overflow-x: hidden;
     overflow-y: auto;
+    background-color:#0c0e14!important;
 }
 
 .page-wrapper .page-main::-webkit-scrollbar {
@@ -4236,7 +4237,8 @@ a:hover {
 }
 
 body.dark-theme .nice-select {
-    background: #1A2634;
+    background: #0c0e14;
+border: 1px solid #1d1f14;
 }
 
 body.dark-theme .nice-select .current {
@@ -4244,7 +4246,8 @@ body.dark-theme .nice-select .current {
 }
 
 body.dark-theme .nice-select .list {
-    background: #1A2634;
+    background: #0c0e14;
+border: 1px solid #1d1f14;
 }
 
 body.dark-theme .nice-select .option.selected.focus,
@@ -4358,7 +4361,8 @@ body.dark-theme .page-header__menu-btn .menu-btn {
 }
 
 body.dark-theme .search__input {
-    background: #1A2634;
+    background: #0c0e14;
+    border: 1px solid #1d1f14;
 }
 
 body.dark-theme .search__btn button {
@@ -4398,7 +4402,8 @@ body.dark-theme .recommend-slide {
 
 body.dark-theme .game-card__box {
     -webkit-box-shadow: 0px 30px 70px rgba(0, 0, 0, 0.03);
-    background: #0C1826;
+    background: #0c0e14;
+border: 1px solid #1d1f14;
     box-shadow: 0px 30px 70px rgba(0, 0, 0, 0.03);
 }
 

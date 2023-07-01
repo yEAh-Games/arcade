@@ -37,7 +37,7 @@
     <div class="page-wrapper">
         <header class="page-header">
             <div class="page-header__inner">
-                <div class="page-header__sidebar">
+                <div class="page-header__sidebar" style="background-color: #0c0e14!important;">
                     <div class="page-header__menu-btn"><button class="menu-btn ico_menu is-active"></button></div>
                     <div><a href="https://www.yeahgames.net"><img width="150px"
                                 src="https://cdn.yeahgames.net/img/branding/logos/text/red.svg" title="yEAh"
@@ -46,7 +46,8 @@
                                     class="fa-solid fa-circle-play mobile-hidden"></i>
                         </a></font><span class="page-header__logo_text"></span></div>
                 </div>
-                <div class="page-header__content">
+                <div class="page-header__content" style="background: linear-gradient(to right, #0c0e14, #101519, #13171d, #171b22, #1a1e26, #1d1f24) !important;
+                ">
                     <div class="page-header__search">
                         <div class="search">
 
@@ -79,19 +80,19 @@
             </div>
         </header>
         <div class="page-content">
-            <aside class="sidebar is-show" id="sidebar">
+            <aside class="sidebar is-show" id="sidebar" style="background-color:#0c0e14!important">
                 <div class="sidebar-box">
                     <ul class="uk-nav">
                         <li title="Home (recommended games)" {% if page.url == "/" or page.url == "/index.html" %} class="uk-active"{% endif %}><a href="https://arcade.yeahgames.net"><i style="color:#ff4747"
                                     class="fa fa-home"></i>&nbsp;<span>Home</span></a></li>
-                        <li {% if page.url == "/sort/all/" or page.url == "/sort/all" or page.url == "/sort/all/index.html" %} class="uk-active"{% endif %} title="Browse all published games (ordered by most recent)."><a href="/sort/all">
+                        <li {% if page.url contains "/sort/" or page.url contains "/sort" or page.url == "/sort/all/index.html" %} class="uk-active"{% endif %} title="Browse all published games (ordered alphabetically)."><a href="/sort/all">
                                 <font color="#e34c26"><i class="fa-solid fa-gamepad"></i></font>
                                 &nbsp;<span>Browse</span>
                             </a></li>
                         <li class="uk-nav-header">TYPES</li>
 
                         <li
-                            title="Games are published & playable using HTML5, the safe & modern web standard for interactive elements.">
+                            title="Games are published & playable using HTML5, the safe & modern web standard for interactive games.">
                             <a href="/sort/type/html5">
                                 <font color="#e34c26"><i class="fa-brands fa-html5"></i></font>&nbsp;<span>HTML5</span>
                             </a>
