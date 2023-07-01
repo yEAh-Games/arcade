@@ -21,24 +21,6 @@ jQuery(document).ready(function ($) {
     }
 
 
-
-
-
-
-
-
-
-    /////////////////////////////////////////////////////////////////
-    // Preloader
-    /////////////////////////////////////////////////////////////////
-
-    var $preloader = $('#page-preloader'),
-        $spinner = $preloader.find('.spinner-loader');
-    $spinner.fadeOut();
-    $preloader.delay(250).fadeOut('slow');
-
-
-
     mediaHeader.addListener(handleHeader);
     handleHeader(mediaHeader);
     const recommendSlider = new Swiper('.js-recommend .swiper', {
