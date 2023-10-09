@@ -1,4 +1,4 @@
-Sitemap: https://player.yeahgames.net/sitemap.xml
+Sitemap: https://arcade.ynwk.org/sitemap.xml
 
 User-agent: *
 Disallow: /theme/*
